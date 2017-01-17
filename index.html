@@ -7,20 +7,10 @@
     <meta name=viewport content="width=device-width, minimum-scale=1.0, maximum-scale=1.0" />
     <meta name=description content="Data Visualisation Meetup in Berlin" />
     <title>Data Visualisation Berlin</title>
-    <style>
-      @font-face{
-        font-family:"Mark W01 Narrow Medium";
-        src:url("http://parnow.de/fonts/5402198/37462f06-f94a-40f3-895b-64fbb5a282ae.eot?#iefix");
-        src:url("http://parnow.de/fonts/5402198/37462f06-f94a-40f3-895b-64fbb5a282ae.eot?#iefix") format("eot"),url("fonts/5402198/09d69089-0ee2-40c9-8739-0d697a6b52aa.woff2") format("woff2"),url("fonts/5402198/5d3e51f4-8cf3-4c1b-bd8b-8e51f0f62b76.woff") format("woff"),url("fonts/5402198/b384f925-f283-45aa-bf30-bf859626e317.ttf") format("truetype");
-      }
-      @font-face{
-          font-family:"Mark W01 Narrow";
-          src:url("http://parnow.de/fonts/5402242/1a80befe-da16-4dbf-a1b4-3fe872073980.eot?#iefix");
-          src:url("http://parnow.de/fonts/5402242/1a80befe-da16-4dbf-a1b4-3fe872073980.eot?#iefix") format("eot"),url("fonts/5402242/93eb272f-5616-4f08-b726-82f01560cb27.woff2") format("woff2"),url("fonts/5402242/501a58be-2794-4d49-b3c1-fe7d90ad1da2.woff") format("woff"),url("fonts/5402242/43c9e3c0-73ce-44cf-bd80-336762dbb764.ttf") format("truetype");
-      }
 
+    <style>
       html {
-        font: normal normal 105%/1.7 'Mark W01 Narrow', sans-serif;
+        font: normal normal 105%/1.7 Roboto, -apple-system, BlinkMacSystemFont, "Helvetica Neue", "Segoe UI", "Oxygen", "Ubuntu", "Cantarell", "Open Sans", sans-serif;
         color: #353639;
       }
 
@@ -52,19 +42,13 @@
 
       p {
         margin: 1em 0;
-        font-size: 1.8em;
-        line-height: 1.3;
-      }
-
-      p strong {
-        font-weight: normal;
-        font-family: 'Mark W01 Narrow Medium', sans-serif;
+        font-size: 1.6em;
+        line-height: 1.4;
       }
       
       a {
         text-decoration: none;
         color: #000;
-        border-bottom: 1px solid #FFB5A8;
       }
       
       a:hover, a:focus, a:active {
@@ -72,6 +56,49 @@
         color: #000;
         border-bottom: 1px solid #FF4626;
       }
+
+      h2 {
+        margin-top: 4em;
+        border-bottom: 1px solid #eee;
+      }
+
+      h3 {
+        margin-top: 3em;
+        margin-bottom: 0.5em;
+      }
+
+      ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+      }
+
+      li {
+        padding: 3px 0;
+        list-style-position: inside;
+        padding-left: 0.2em;  
+        text-indent: -.2em; 
+      }
+
+      li:before {
+          content: "— ";
+          color: #FF4626;
+          margin-right: 0.2em;
+      }
+
+      div.boxes {
+        display: flex;
+        flex-wrap: wrap;
+      }
+
+      div.boxes section {
+        width: 32%;
+      }
+
+      ul.columns {
+        column-count: 3;
+      }
+
     </style>
   </head>
 
@@ -87,71 +114,116 @@
       <p><small><em>*</em> Still not sure if that’s a word</small></p>
 
       <h2>Professional data visualisation in Berlin</h2>
+      <div class="boxes">
 
-      <h3>Newsrooms</h3>
+      <section>
+        <h3>Newsrooms</h3>
 
-      <ul>
-        <li>Morgenpost</li>
-        <li>Zeit</li>
-        <li>Tagesspiegel</li>
-      </ul>
+        <ul>
+          <li><a href="http://twitter.com/tagesspiegel">Tagesspiegel</a></li>
+          <li><a href="http://www.morgenpost.de/interaktiv/">Morgenpost</a></li>
+          <li><a href="http://zeit.de/datenjournalismus">Zeit Online</a></li>
+        </ul>
+      </section>
 
+      <section>
       <h3>Data visualisation</h3>
 
       <ul>
-        <li>Webkid</li>
-        <li>Studio Karat</li>
+        <li><a href="http://karat.studio">Studio Karat</a></li>
+        <li><a href="http://nand.io/">Studio Nand</a></li>
+        <li><a href="http://webkid.io/">Webkid</a></li>
       </ul>
-
-      <h3>Agencies</h3>
+      </section>
+      
+      <section>
+      <h3>Information design</h3>
 
       <ul>
-        <li>Golden Section Graphics</li>
-        <li>C3</li>
+        <li><a href="http://c3.co">C3</a></li>
+        <li><a href="http://golden-div-graphics.com/">Golden Section Graphics</a></li>
+        <li><a href="http://raureif.net/">Raureif</a></li>
+        <li><a href="http://visual-kama.de">Visual Kama</a></li>
       </ul>
+      </section>
 
+      <section>
+      <h3>Art / Resarch</h3>
+
+      <ul>
+        <li><a href="http://www.onformative.com/">Onformative</a></li>
+        <li><a href="https://artcom.de/">Art+Com</a></li>
+        <li><a href="http://www.vislab.io/">VisLab</a></li>
+      </ul>
+      </section>
+      <section>
       <h3>Freelancer</h3>
 
       <ul>
-        <li>Kim</li>
+        <li><a href="http://kimalbrecht.com/">Kim Albrecht</a></li>
+        <li><a href="http://www.christianlaesser.com/">Christian Laesser</a></li>
+        <li><a href="https://www.ahoi.in/">Sebastian Sadowski</a></li>
       </ul>
+      </section>
+      </div>
 
-      <h3>Data art</h3>
+      <h2>Related universities</h2>
+      <div class="columns">
 
-      <ul>
-        <li>Onformative</li>
-      </ul>
+        <ul>
+          <li><a href="https://www.fh-potsdam.de/studieren/fachbereiche/design/">FH Potsdam</a> (<a href="https://uclab.fh-potsdam.de/">Urban Complexity Lab</a>, <a href="https://twitter.com/nrchtct">Marian Dörk</a>, <a href="https://twitter.com/borism">Boris Müller</a>)</li>
+          <li><a href="http://www.hiig.de/">Alexander von Humboldt Institut für Internet und Gesellschaft</a></li>
+          <li><a href="http://design.udk-berlin.de/">Universität der Künste</a> (<a href="https://www.udk-berlin.de/forschung/forschungseinrichtungen/design-research-lab/">Design Research Lab</a>, <a href="https://twitter.com/GescheJoost">Gesche Joost</a>)</li>
+        </ul>
+      </div>
 
-      <h2>Universities in Berlin</h2>
+      <h2>Meet other data people</h2>
+      <div>
+        <h3>Data vis people currently in Berlin</h3>
 
-      <ul>
-        <li>FH Potsdam</li>
-        <li>…</li>
-      </ul>
+        <ul class="columns">
+          <li><a href="https://twitter.com/ahoiin">Sebastian Sadowski</a></li>
+          <li><a href="https://twitter.com/alterpaetz">André Pätzold</a></li>
+          <li><a href="https://twitter.com/CedricKiefer">Cedric Kiefer</a></li>
+          <li><a href="https://twitter.com/chrispiecom">Christopher Pietsch</a></li>
+          <li><a href="https://twitter.com/christianlaessr">Christian Laesser</a></li>
+          <li><a href="https://twitter.com/chrtze">Christopher Möller</a></li>
+          <li><a href="https://twitter.com/colorfuldata">Paul Blickle</a></li>
+          <li><a href="https://twitter.com/data_meining">Michael Hoerz</a></li>
+          <li><a href="https://twitter.com/dirkaschoff">Dirk Aschoff</a></li>
+          <li><a href="https://twitter.com/driven_by_data">Gregor Aisch</a></li>
+          <li><a href="https://twitter.com/flaviogortana">Flavio Gortana</a></li>
+          <li><a href="https://twitter.com/HerrStange">Jan-Erik Stange</a></li>
+          <li><a href="https://twitter.com/julians">Julian Stahnke</a></li>
+          <li><a href="https://twitter.com/juliustroeger">Julius Tröger</a></li>
+          <li><a href="https://twitter.com/kaglinka">Katrin Glinka</a></li>
+          <li><a href="https://twitter.com/kimay">Kim Albrecht</a></li>
+          <li><a href="https://twitter.com/labaume_de">Pierre La Baume</a></li>
+          <li><a href="https://twitter.com/moklick">Moritz Klack</a></li>
+          <li><a href="https://twitter.com/newreld">David Wendler</a></li>
+          <li><a href="https://twitter.com/nrchtct">Marian Dörk</a></li>
+          <li><a href="https://twitter.com/seb_meier">Sebastian Meier</a></li>
+          <li><a href="https://twitter.com/stphnthiel">Stephan Thiel</a></li>
+          <li><a href="https://twitter.com/venohr">Sascha Venohr</a></li>
+          <li><a href="https://twitter.com/zeto">Jonas Parnow</a></li>
+          <li><a href="https://xing.com/profile/Raimar_Heber">Raimar Heber</a></li>
+        </ul>
 
-      <h2>Data vis people currently in Berlin</h2>
-
-      <ul>
-        <li>Lisa</li>
-        <li>Jonas</li>
-        <li>Kim</li>
-        <li>Gregor Aisch</li>
-        <li>…</li>
-      </ul>
-
-      <h2>Related meetups</h2>
-
-      <ul>
-        <li><a href="#">Maptime</a></li>
-        <li><a href="#">D3</a></li>
-        <li><a href="#">Hacks and Hackers</a></li>
-        <li><a href="#">R</a></li>
-      </ul>
+        
+        <h3>Related meetups</h3>
+        <ul>
+          <li><a href="#">Maptime</a></li>
+          <li><a href="#">D3</a></li>
+          <li><a href="#">Hacks and Hackers</a></li>
+          <li><a href="#">R</a></li>
+        </ul>
+      </div>
 
       <h2>Museums you might like</h2>
 
       <ul>
-        <li><a href="#">Museum für Kommunikation</a></li>
+        <li><a href="http://www.mfk-berlin.de/">Museum für Kommunikation</a></li>
+        <li><a href="http://www.buchstabenmuseum.de/">Buchstaben Museum</a></li>
       </ul>
 
       <h2>Places to work at</h2>
