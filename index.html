@@ -50,6 +50,10 @@
         text-decoration: none;
         color: #000;
       }
+
+      p a {
+        border-bottom: 1px solid #F8BFA8;
+      }
       
       a:hover, a:focus, a:active {
         text-decoration: none;
@@ -57,13 +61,18 @@
         border-bottom: 1px solid #FF4626;
       }
 
+      #logo:hover {
+        border: none;
+      }
+
       h2 {
         margin-top: 4em;
+        margin-bottom: 0;
         border-bottom: 1px solid #eee;
       }
 
       h3 {
-        margin-top: 3em;
+        margin-top: 2em;
         margin-bottom: 0.5em;
       }
 
@@ -78,6 +87,7 @@
         list-style-position: inside;
         padding-left: 0.2em;  
         text-indent: -.2em; 
+        padding-right: 1em;
       }
 
       li:before {
@@ -99,17 +109,22 @@
         column-count: 3;
       }
 
+      footer {
+        margin-top: 4em;
+        text-align: center;
+      }
+
     </style>
   </head>
 
   <body>
     <div class="container">
-      <a href="http://parnow.de/" id="logo">DataVis Berlin Meetup Homepage</a>
-      <p>Hey fellow data visualisator<em><small>*</small></em>,</p>
+      <a href="http://datavis.berlin" id="logo">DataVis Berlin Meetup Homepage</a>
+      <p>Hey fellow data visualiser<em><small>*</small></em>,</p>
 
-      <p>if you are new in town, welcome to Berlin, and to everyone new or already involved in data visualization, this website aims to guide you to the local scene. This is the website of the Data Visualization Meetup Berlin, but as questions have risen, here are some basic information.</p>
+      <p>if you are new in town, welcome to Berlin, and to everyone new or already involved in data visualization, this website aims to guide you to the local scene. This is the website of the <a href="https://www.meetup.com/de-DE/Data-Visualization-Berlin/">Data Visualization Meetup Berlin</a>, but as questions have risen, here are some links.</p>
 
-      <p>Greetings, Lisa & Jonas</p>
+      <p>Greetings, <a href="https://twitter.com/lisacrost">Lisa</a> & <a href="https://twitter.com/zeto">Jonas</a></p>
 
       <p><small><em>*</em> Still not sure if that’s a word</small></p>
 
@@ -123,6 +138,7 @@
           <li><a href="http://twitter.com/tagesspiegel">Tagesspiegel</a></li>
           <li><a href="http://www.morgenpost.de/interaktiv/">Morgenpost</a></li>
           <li><a href="http://zeit.de/datenjournalismus">Zeit Online</a></li>
+          <li><a href="https://opendatacity.de/">Open Data City</a></li>
         </ul>
       </section>
 
@@ -133,6 +149,7 @@
         <li><a href="http://karat.studio">Studio Karat</a></li>
         <li><a href="http://nand.io/">Studio Nand</a></li>
         <li><a href="http://webkid.io/">Webkid</a></li>
+        <li><a href="http://explosion.ai/">Explosion</a></li>
       </ul>
       </section>
       
@@ -148,12 +165,15 @@
       </section>
 
       <section>
-      <h3>Art / Resarch</h3>
+      <h3>Art / Research</h3>
 
       <ul>
         <li><a href="http://www.onformative.com/">Onformative</a></li>
         <li><a href="https://artcom.de/">Art+Com</a></li>
         <li><a href="http://www.vislab.io/">VisLab</a></li>
+        <li><a href="http://waltzbinaire.com/">Waltz Binaire</a></li>
+        <li><a href="http://schnellebuntebilder.de/">Schnellebuntebilder</a></li>
+        <li><a href="http://www.feld.is/">Feld</a></li>
       </ul>
       </section>
       <section>
@@ -167,14 +187,37 @@
       </section>
       </div>
 
-      <h2>Related universities</h2>
-      <div class="columns">
+      <h2>Places</h2>
+      <div class="boxes">
 
-        <ul>
-          <li><a href="https://www.fh-potsdam.de/studieren/fachbereiche/design/">FH Potsdam</a> (<a href="https://uclab.fh-potsdam.de/">Urban Complexity Lab</a>, <a href="https://twitter.com/nrchtct">Marian Dörk</a>, <a href="https://twitter.com/borism">Boris Müller</a>)</li>
-          <li><a href="http://www.hiig.de/">Alexander von Humboldt Institut für Internet und Gesellschaft</a></li>
-          <li><a href="http://design.udk-berlin.de/">Universität der Künste</a> (<a href="https://www.udk-berlin.de/forschung/forschungseinrichtungen/design-research-lab/">Design Research Lab</a>, <a href="https://twitter.com/GescheJoost">Gesche Joost</a>)</li>
-        </ul>
+        <section>
+          <h3>Universities</h3>
+
+          <ul>
+            <li><a href="https://www.fh-potsdam.de/studieren/fachbereiche/design/">FH Potsdam</a> (<a href="https://uclab.fh-potsdam.de/">Urban Complexity Lab</a>, <a href="https://twitter.com/nrchtct">Marian Dörk</a>, <a href="https://twitter.com/borism">Boris Müller</a>)</li>
+            <li><a href="http://www.hiig.de/">Alexander von Humboldt Institut für Internet und Gesellschaft</a></li>
+            <li><a href="http://digital.udk-berlin.de/">Digitale Klasse der UDK</a> (<a href="https://www.udk-berlin.de/forschung/forschungseinrichtungen/design-research-lab/">Design Research Lab</a>, <a href="https://twitter.com/GescheJoost">Gesche Joost</a>)</li>
+          </ul>
+        </section>
+        <section>
+          <h3>Museums / Galleries</h3>
+
+          <ul>
+            <li><a href="http://spektrumberlin.de/">Spektrum</a></li>
+            <li><a href="https://www.leap.de/">Leap</a></li>
+            <li><a href="https://www.dam-gallery.de/">DAM gallery</a></li>
+            <li><a href="http://www.mfk-berlin.de/">Museum für Kommunikation</a></li>
+            <li><a href="http://www.buchstabenmuseum.de/">Buchstaben Museum</a></li>
+          </ul>
+        </section>
+        <section>
+          <h3>Conferences</h3>
+
+          <ul>
+            <li><a href="https://retune.de/">Retune</a></li>
+            <li><a href="https://transmediale.de/">Transmediale</a></li>
+          </ul>
+        </section>
       </div>
 
       <h2>Meet other data people</h2>
@@ -199,6 +242,7 @@
           <li><a href="https://twitter.com/kaglinka">Katrin Glinka</a></li>
           <li><a href="https://twitter.com/kimay">Kim Albrecht</a></li>
           <li><a href="https://twitter.com/labaume_de">Pierre La Baume</a></li>
+          <li><a href="https://twitter.com/lisacrost">Lisa Charlotte Rost</a></li>
           <li><a href="https://twitter.com/moklick">Moritz Klack</a></li>
           <li><a href="https://twitter.com/newreld">David Wendler</a></li>
           <li><a href="https://twitter.com/nrchtct">Marian Dörk</a></li>
@@ -211,27 +255,32 @@
 
         
         <h3>Related meetups</h3>
-        <ul>
-          <li><a href="#">Maptime</a></li>
-          <li><a href="#">D3</a></li>
-          <li><a href="#">Hacks and Hackers</a></li>
-          <li><a href="#">R</a></li>
+        <ul class="columns">
+          <li><a href="https://www.meetup.com/de-DE/Hacks-Hackers-Berlin/">Hacks and Hackers</a></li>
+          <li><a href="https://www.meetup.com/de-DE/d3-js-berlin/">D3.js</a></li>
+          <li><a href="http://snd-dach.de/artikel/snd/dach-stammtisch-in-berlin/">SND/DACH Stammtisch</a></li>
+          <li><a href="https://www.meetup.com/de-DE/Berlin-R-Users-Group/">R User Group</a></li>
+          <li><a href="https://www.meetup.com/de-DE/creativeCodeBerlin/">Creative Coding</a></li>
+          <li><a href="https://www.meetup.com/de-DE/Maptime-BER/">Maptime</a></li>
+        </ul>
+      
+
+        <h3>Places to work / hack</h3>
+
+        <ul class="columns">
+          <li><a href="https://www.betahaus.com/berlin/">Betahouse</a></li>
+          <li><a href="http://sanktoberholz.de/">St. Oberholz</a></li>
+          <li><a href="http://factoryberlin.com/">Factory</a></li>
+          <li><a href="https://c-base.org/">C-Base</a></li>
+          <li><a href="http://agoracollective.org/">Agora Collective</a></li>
+          <li><a href="http://mindspace.me/de/berlin/">Mindspace</a></li>
+          <li><a href="https://www.wework.com/de-DE/l/berlin">WeWork</a></li>
+          <li><a href="http://co-up.de/">co-up.de</a></li>
         </ul>
       </div>
-
-      <h2>Museums you might like</h2>
-
-      <ul>
-        <li><a href="http://www.mfk-berlin.de/">Museum für Kommunikation</a></li>
-        <li><a href="http://www.buchstabenmuseum.de/">Buchstaben Museum</a></li>
-      </ul>
-
-      <h2>Places to work at</h2>
-
-      <ul>
-        <li><a href="#">Betahouse</a></li>
-      </ul>
-      <p><small>Januar 2016 – Creative Common</small></p>
+      <footer>
+        <small>01.2016 – Creative Common</small>
+      </footer>
     </div>
   </body>
 
