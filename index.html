@@ -33,7 +33,8 @@
         text-transform: uppercase;
         font-size: 0.7em;
         letter-spacing: 0.2em;
-        font-family: 'Mark W01 Narrow Medium', sans-serif;
+        font-weight: bold;
+        text-align: center;
       }
 
       em {
@@ -42,8 +43,8 @@
 
       p {
         margin: 1em 0;
-        font-size: 1.6em;
-        line-height: 1.4;
+        font-size: 1.2em;
+        line-height: 1.3;
       }
       
       a {
@@ -102,11 +103,43 @@
       }
 
       div.boxes section {
-        width: 32%;
+        width: 100%;
       }
 
       ul.columns {
-        column-count: 3;
+        column-count: 1;
+      }
+
+      @media only all and (min-width: 45em) {
+        p {
+          margin: 1em 0;
+          font-size: 1.4em;
+          line-height: 1.35;
+        }
+
+        div.boxes section {
+          width: 49%;
+        }
+
+        ul.columns {
+          column-count: 2;
+        }
+      }
+
+      @media only all and (min-width: 70em) {
+        p {
+          margin: 1em 0;
+          font-size: 1.6em;
+          line-height: 1.4;
+        }
+
+        div.boxes section {
+          width: 32%;
+        }
+
+        ul.columns {
+          column-count: 3;
+        }
       }
 
       footer {
@@ -119,7 +152,7 @@
 
   <body>
     <div class="container">
-      <a href="http://datavis.berlin" id="logo">DataVis Berlin Meetup Homepage</a>
+      <a href="http://datavis.berlin" id="logo">DataVis Berlin Meetup</a>
       <p>Hey fellow data visualiser<em><small>*</small></em>,</p>
 
       <p>if you are new in town, welcome to Berlin, and to everyone new or already involved in data visualization, this website aims to guide you to the local scene. This is the website of the <a href="https://www.meetup.com/de-DE/Data-Visualization-Berlin/">Data Visualization Meetup Berlin</a>, but as questions have risen, here are some links.</p>
