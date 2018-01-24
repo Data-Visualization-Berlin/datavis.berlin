@@ -1,6 +1,6 @@
 # Data Visualisation Meetup Berlin
 
-This website is build with Jekyll and is linked with [https://netlify.com](Netlify). It automatically builds itself on each master push.
+This website is build with Jekyll and is linked with [Netlify](https://netlify.com). It automatically builds itself on each master push.
 
 ## Page structure
 
