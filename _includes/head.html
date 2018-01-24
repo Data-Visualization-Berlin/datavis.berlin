@@ -1,0 +1,12 @@
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>{{ site.title | escape }}</title>
+  <meta name="language" content="{{ page.lang | default: site.lang | default: "en" }}" />
+  <meta name=description content="{{ site.description | escape }}" />
+  <meta http-equiv="last-modified" content="{{ site.time }}">
+  <base href="{{ site.url }}">
+  <link href="{{ page.url | replace:'index.html','' | absolute_url }}" rel="canonical">
+  <link href="{{ "/assets/main.css" | relative_url }}" rel="stylesheet" type="text/css">
+</head>

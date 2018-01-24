@@ -1,0 +1,39 @@
+@charset "utf-8";
+
+$font-family-default: "Roboto", "Helvetica Neue", "Segoe UI", "Oxygen", "Ubuntu", "Cantarell", "Open Sans", Helvetica, sans-serif !default;
+$base-line-height: 1.7 !default;
+
+$spacing-unit:     2rem !default;
+
+$text-color:       #353639 !default;
+$brand-color:      #FF4626 !default;
+
+$on-palm:          600px !default;
+$on-laptop:        800px !default;
+
+@mixin media-query($device) {
+  @media screen and (min-width: $device) {
+    @content;
+  }
+}
+
+// Import partials.
+@import
+  "normalize",
+  "typography",
+  "layout"
+;
+
+html {
+  font: normal normal 105%/1.7 $font-family-default;
+  color: $text-color;
+}
+
+body {
+  -webkit-text-size-adjust: 100%;
+  -webkit-font-feature-settings: "kern" 1;
+     -moz-font-feature-settings: "kern" 1;
+       -o-font-feature-settings: "kern" 1;
+          font-feature-settings: "kern" 1;
+  font-kerning: normal;
+}

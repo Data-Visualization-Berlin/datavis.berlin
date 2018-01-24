@@ -1,377 +1,189 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <meta name=viewport content="width=device-width, minimum-scale=1.0, maximum-scale=1.0" />
-    <meta name=description content="Monthly Data Visualisation Meetup in Berlin about Data Visulistation, Information Design, Statistics and Technology." />
-    <meta http-equiv="last-modified" content="2018-01-16" />
-    <meta name="language" content="en" />
-    <title>Data Visualisation Meetup Berlin</title>
+---
+layout: home
+---
+    <h2>Professional data visualisation in Berlin</h2>
+    <div class="boxes">
 
-    <style>
-      html {
-        font: normal normal 105%/1.7 Roboto, -apple-system, BlinkMacSystemFont, "Helvetica Neue", "Segoe UI", "Oxygen", "Ubuntu", "Cantarell", "Open Sans", sans-serif;
-        color: #353639;
-      }
+      <section>
+        <h3>Newsrooms</h3>
+        <ul>
+          <li><a href="https://dsst.io">Data Science and Stories (Tagesspiegel)</a></li>
+          <li><a href="http://www.morgenpost.de/interaktiv/">Morgenpost</a></li>
+          <li><a href="https://opendatacity.de/">Open Data City</a></li>
+          <li><a href="http://zeit.de/datenjournalismus">Zeit Online</a></li>
+        </ul>
+      </section>
 
-      body {
-        margin: 5em 0;
-      }
+      <section>
+        <h3>Data visualisation</h3>
+        <ul>
+          <li><a href="http://explosion.ai/">Explosion</a></li>
+          <li><a href="http://karat.studio">Studio Karat</a></li>
+          <li><a href="http://nand.io/">Studio Nand</a></li>
+          <li><a href="https://undev.studio/">undev</a></li>
+          <li><a href="http://webkid.io/">Webkid</a></li>
+        </ul>
+      </section>
 
-      .container {
-        max-width: 1120px;
-        margin: 0 auto;
-        padding: 0 30px;
-      }
+      <section>
+        <h3>Information design</h3>
+        <ul>
+          <li><a href="http://c3.co">C3</a></li>
+          <li><a href="http://www.infografik.pro/">Infografik Pro</a></li>
+          <li><a href="http://infographics.group/">Infographics Group</a></li>
+          <li><a href="http://ixtract.de/">ixtract</a></li>
+          <li><a href="http://raureif.net/">Raureif</a></li>
+          <li><a href="https://www.studio-inca.de/">Studio IN'CA</a></li>
+          <li><a href="http://visual-kama.de">Visual Kama</a></li>
+        </ul>
+      </section>
 
-      #logo {
-        color: #fff;
-        background-color: #FF4626;
-        padding: 1em 1.3em;
-        margin-bottom: 2.5em;
-        display: inline-block;
-        text-transform: uppercase;
-        font-size: 0.7em;
-        letter-spacing: 0.2em;
-        font-weight: bold;
-        text-align: center;
-      }
-
-      em {
-        color: #FF4626;
-      }
-
-      p {
-        margin: 1em 0;
-        font-size: 1.2em;
-        line-height: 1.3;
-      }
-
-      a {
-        text-decoration: none;
-        color: #000;
-      }
-
-      p a {
-        border-bottom: 1px solid #F8BFA8;
-      }
-
-      a:hover, a:focus, a:active {
-        text-decoration: none;
-        color: #000;
-        border-bottom: 1px solid #FF4626;
-      }
-
-      #logo:hover {
-        border: none;
-      }
-
-      h2 {
-        margin-top: 4em;
-        margin-bottom: 0;
-        border-bottom: 1px solid #eee;
-      }
-
-      h3 {
-        margin-top: 2em;
-        margin-bottom: 0.5em;
-      }
-
-      ul {
-        list-style: none;
-        padding: 0;
-        margin: 0;
-      }
-
-      li {
-        padding: 3px 0;
-        list-style-position: inside;
-        padding-left: 0.2em;
-        text-indent: -.2em;
-        padding-right: 1em;
-      }
-
-      li:before {
-          content: "— ";
-          color: #FF4626;
-          margin-right: 0.2em;
-      }
-
-      div.boxes {
-        display: flex;
-        flex-wrap: wrap;
-      }
-
-      div.boxes section {
-        width: 100%;
-      }
-
-      ul.columns {
-        -webkit-column-count: 1;
-        -moz-column-count: 1;
-        column-count: 1;
-      }
-
-      @media only all and (min-width: 45em) {
-        p {
-          margin: 1em 0;
-          font-size: 1.4em;
-          line-height: 1.35;
-        }
-
-        div.boxes section {
-          width: 49%;
-        }
-
-        ul.columns {
-          -webkit-column-count: 2;
-          -moz-column-count: 2;
-          column-count: 2;
-        }
-      }
-
-      @media only all and (min-width: 70em) {
-        p {
-          margin: 1em 0;
-          font-size: 1.6em;
-          line-height: 1.4;
-        }
-
-        div.boxes section {
-          width: 32%;
-        }
-
-        ul.columns {
-          -webkit-column-count: 3;
-          -moz-column-count: 3;
-          column-count: 3;
-        }
-      }
-
-      footer {
-        margin-top: 4em;
-        text-align: center;
-      }
-
-    </style>
-  </head>
-
-  <body>
-    <div class="container">
-      <a href="http://datavis.berlin" rel="index" id="logo">DataVis Meetup Berlin</a>
-      <p>
-        Hey fellow data visualiser<em><small>*</small></em>,<br /><br />
-
-        if you are new in town, welcome to Berlin, and to everyone new or already involved in data visualization, this website aims to guide you to the local scene. It is inspired and maintained by the <a href="https://www.meetup.com/de-DE/Data-Visualization-Berlin/">Data Visualization Meetup Berlin</a>. You are very welcome to join us for our ~monthly meetings. Meanwhile, here are some links to help you around. If you have any additional questions, want to participate or <a href="https://github.com/Data-Visualization-Berlin/Data-Visualization-Berlin.github.io">contribute</a> to this website, feel free to contact me through jonas-at-datavis.berlin or on <a href="https://twitter.com/zeto" rel="author">Twitter</a>.<br /><br />
-
-        Greetings, <a href="https://twitter.com/zeto" rel="author">Jonas</a><br /><br />
-
-        PS: Follow <a href="https://twitter.com/hashtag/visber">#visber</a> for more up-to-date information.
-      </p>
-
-      <p><small><em>*</em> Still not sure if that’s a word</small></p>
-
-      <h2>Professional data visualisation in Berlin</h2>
-      <div class="boxes">
-
-        <section>
-          <h3>Newsrooms</h3>
-          <ul>
-            <li><a href="https://dsst.io">Data Science and Stories (Tagesspiegel)</a></li>
-            <li><a href="http://www.morgenpost.de/interaktiv/">Morgenpost</a></li>
-            <li><a href="https://opendatacity.de/">Open Data City</a></li>
-            <li><a href="http://zeit.de/datenjournalismus">Zeit Online</a></li>
-          </ul>
-        </section>
-
-        <section>
-          <h3>Data visualisation</h3>
-          <ul>
-            <li><a href="http://explosion.ai/">Explosion</a></li>
-            <li><a href="http://karat.studio">Studio Karat</a></li>
-            <li><a href="http://nand.io/">Studio Nand</a></li>
-            <li><a href="https://undev.studio/">undev</a></li>
-            <li><a href="http://webkid.io/">Webkid</a></li>
-          </ul>
-        </section>
-
-        <section>
-          <h3>Information design</h3>
-          <ul>
-            <li><a href="http://c3.co">C3</a></li>
-            <li><a href="http://www.infografik.pro/">Infografik Pro</a></li>
-            <li><a href="http://infographics.group/">Infographics Group</a></li>
-            <li><a href="http://ixtract.de/">ixtract</a></li>
-            <li><a href="http://raureif.net/">Raureif</a></li>
-            <li><a href="https://www.studio-inca.de/">Studio IN'CA</a></li>
-            <li><a href="http://visual-kama.de">Visual Kama</a></li>
-          </ul>
-        </section>
-
-        <section>
-          <h3>Art / Research</h3>
-          <ul>
-            <li><a href="https://artcom.de/">Art+Com</a></li>
-            <li><a href="http://www.feld.is/">Feld</a></li>
-            <li><a href="http://www.petercrnokrak.com/">Peter Crnokrak</a></li>
-            <li><a href="http://schnellebuntebilder.de/">Schnellebuntebilder</a></li>
-            <li><a href="https://tacticaltech.org/">Tactical Technology Collecitve</a></li>
-            <li><a href="http://www.vislab.io/">VisLab</a></li>
-            <li><a href="http://waltzbinaire.com/">Waltz Binaire</a></li>
-            <li><a href="http://www.onformative.com/">onformative</a></li>
-            <li><a href="http://quadrature.co/">quadrature</a></li>
-          </ul>
-        </section>
-
-        <section>
-          <h3>Freelancer</h3>
-          <ul>
-            <li><a href="http://www.christianlaesser.com/">Christian Laesser</a></li>
-            <li><a href="http://davidelsche.com/">David Elsche</a></li>
-            <li><a href="http://kimalbrecht.com/">Kim Albrecht</a></li>
-            <li><a href="http://lisarienermann.com">Lisa Rienermann</a></li>
-            <li><a href="http://rulesrulesrules.studio/">RULES RULES RULES</a></li>
-            <li><a href="https://datadesign.studio/">Sebastian Sadowski</a></li>
-            <li><a href="http://www.steffenhaensch.de/">Steffen Hänsch</a></li>
-          </ul>
-        </section>
-        
-        <section>
-          <h3>Tools</h3>
-          <ul>
-            <li><a href="https://www.datawrapper.de/">Datawrapper</a></li>
-            <li><a href="https://www.trifacta.com/">Trifacta</a></li>
-          </ul>
-        </section>
-      </div>
-
-      <h2>Places</h2>
-      <div class="boxes">
-
-        <section>
-          <h3>Universities</h3>
-          <ul>
-            <li><a href="https://www.fh-potsdam.de/studieren/fachbereiche/design/">FH Potsdam</a> (<a href="https://uclab.fh-potsdam.de/">Urban Complexity Lab</a>, <a href="https://twitter.com/nrchtct">Marian Dörk</a>, <a href="https://twitter.com/borism">Boris Müller</a>, <a href="https://infovis.fh-potsdam.de/">information+visualization</a>)</li>
-            <li><a href="http://www.hiig.de/">Alexander von Humboldt Institut für Internet und Gesellschaft</a> (<a href="http://www.hiig.de/digitaler-salon/">Digitaler Salon</a>)</li>
-            <li><a href="http://www.kunstgeschichte.hu-berlin.de/2012/07/exzellenzcluster-bild-wissen-gestaltung/">Exzellenzcluster »Bild Wissen Gestaltung. Ein interdisziplinäres Labor«</a></li>
-            <li>Universität der Künste (<a href="http://digital.udk-berlin.de/">Digitale Klasse</a>, <a href="https://www.udk-berlin.de/forschung/forschungseinrichtungen/design-research-lab/">Design Research Lab</a>, <a href="https://twitter.com/GescheJoost">Gesche Joost</a>)</li>
-          </ul>
-        </section>
-
-        <section>
-          <h3>Museums / Galleries</h3>
-          <ul>
-            <li><a href="http://www.buchstabenmuseum.de/">Buchstaben Museum</a></li>
-            <li><a href="https://www.dam-gallery.de/">DAM gallery</a></li>
-            <li><a href="https://www.leap.de/">Leap</a></li>
-            <li><a href="http://www.mfk-berlin.de/">Museum für Kommunikation</a></li>
-            <li><a href="http://spektrumberlin.de/">Spektrum</a></li>
-          </ul>
-        </section>
-
-        <section>
-          <h3>Conferences</h3>
-          <ul>
-            <li><a href="https://retune.de/">Retune</a></li>
-            <li><a href="https://transmediale.de/">Transmediale</a></li>
-          </ul>
-        </section>
-
-      </div>
-
-      <h2>Meet other data people</h2>
-      <div>
-
-        <h3>Data vis people currently in Berlin</h3>
-        <ul class="columns">
-          <li><a href="https://twitter.com/Alsinosko">Alsino Skowronnek</a></li>
-          <li><a href="https://twitter.com/alterpaetz">André Pätzold</a></li>
-          <li><a href="https://twitter.com/borism">Boris Müller</a></li>
-          <li><a href="https://twitter.com/CedricKiefer">Cedric Kiefer</a></li>
-          <li><a href="https://twitter.com/christianlaessr">Christian Laesser</a></li>
-          <li><a href="https://twitter.com/chrtze">Christopher Möller</a></li>
-          <li><a href="https://twitter.com/chrispiecom">Christopher Pietsch</a></li>
-          <li><a href="https://twitter.com/DirkBrockmann">Dirk Brockmann</a></li>
-          <li><a href="https://twitter.com/ElscheDavid">David Elsche</a></li>
-          <li><a href="https://twitter.com/newreld">David Wendler</a></li>
-          <li><a href="https://twitter.com/dirkaschoff">Dirk Aschoff</a></li>
-          <li><a href="https://twitter.com/fidelthomet">Fidel Thomet</a></li>
-          <li><a href="https://twitter.com/flaviogortana">Flavio Gortana</a></li>
-          <li><a href="http://www.freder.io">Frederic Brodbeck</a></li>
-          <li><a href="https://twitter.com/driven_by_data">Gregor Aisch</a></li>
-          <li><a href="https://twitter.com/HerrStange">Jan-Erik Stange</a></li>
-          <li><a href="https://twitter.com/zeto">Jonas Parnow</a></li>
-          <li><a href="https://twitter.com/Jack Schaedler">Jack Schaedler</a></li>
-          <li><a href="https://twitter.com/julians">Julian Stahnke</a></li>
-          <li><a href="https://twitter.com/juliustroeger">Julius Tröger</a></li>
-          <li><a href="https://twitter.com/Lettebowskie">Katja Dittrich </a></li>
-          <li><a href="https://twitter.com/kaglinka">Katrin Glinka</a></li>
-          <li><a href="https://twitter.com/kimay">Kim Albrecht</a></li>
-          <li><a href="https://twitter.com/lgrammel">Lars Grammel</a></li>
-          <li><a href="https://twitter.com/lisacrost">Lisa Charlotte Rost</a></li>
-          <li><a href="https://twitter.com/@lisarienermann">Lisa Rienermann</a></li>
-          <li><a href="https://twitter.com/nrchtct">Marian Dörk</a></li>
-          <li><a href="https://twitter.com/studio_inca">Maximilian Nertinger</a></li>
-          <li><a href="https://twitter.com/data_meining">Michael Hoerz</a></li>
-          <li><a href="https://twitter.com/michaelkreil">Michael Kreil</a></li>
-          <li><a href="https://twitter.com/moklick">Moritz Klack</a></li>
-          <li><a href="https://twitter.com/nicolaskb">Nicolas Kayser-Bril</a></li>
-          <li><a href="https://twitter.com/colorfuldata">Paul Blickle</a></li>
-          <li><a href="https://twitter.com/paulpunkt">Paul Heinicker</a></li>
+      <section>
+        <h3>Art / Research</h3>
+        <ul>
+          <li><a href="https://artcom.de/">Art+Com</a></li>
+          <li><a href="http://www.feld.is/">Feld</a></li>
           <li><a href="http://www.petercrnokrak.com/">Peter Crnokrak</a></li>
-          <li><a href="https://twitter.com/bockph">Philipp Bock</a></li>
-          <li><a href="https://twitter.com/labaume_de">Pierre La Baume</a></li>
-          <li><a href="https://xing.com/profile/Raimar_Heber">Raimar Heber</a></li>
-          <li><a href="https://twitter.com/srendgen">Sandra Rendgen</a></li>
-          <li><a href="https://twitter.com/venohr">Sascha Venohr</a></li>
-          <li><a href="https://twitter.com/seb_meier">Sebastian Meier</a></li>
-          <li><a href="https://twitter.com/sadowskiseb">Sebastian Sadowski</a></li>
-          <li><a href="https://twitter.com/geplapper">Christian Schlippes</a></li>          
-          <li><a href="http://www.schwochow.de">Jan Schwochow</a></li>
-          <li><a href="https://twitter.com/yetzt">Sebastian Vollnhals</a></li>
-          <li><a href="https://twitter.com/stefanwehrmeyer">Stefan Wehrmeyer</a></li>
-          <li><a href="https://twitter.com/stphnthiel">Stephan Thiel</a></li>
+          <li><a href="http://schnellebuntebilder.de/">Schnellebuntebilder</a></li>
+          <li><a href="https://tacticaltech.org/">Tactical Technology Collecitve</a></li>
+          <li><a href="http://www.vislab.io/">VisLab</a></li>
+          <li><a href="http://waltzbinaire.com/">Waltz Binaire</a></li>
+          <li><a href="http://www.onformative.com/">onformative</a></li>
+          <li><a href="http://quadrature.co/">quadrature</a></li>
         </ul>
+      </section>
 
-        <h3>Related meetups</h3>
-        <ul class="columns">
-          <li><a href="https://www.meetup.com/de-DE/Hacks-Hackers-Berlin/">Hacks and Hackers</a></li>
-          <li><a href="https://www.meetup.com/de-DE/Datenjournalismus-Berlin/">Datenjournalismus</a></li>
-          <li><a href="https://www.meetup.com/de-DE/d3-js-berlin/">D3.js</a></li>
-          <li><a href="http://snd-dach.de/artikel/snd/dach-stammtisch-in-berlin/">SND/DACH Stammtisch</a></li>
-          <li><a href="https://www.meetup.com/de-DE/Berlin-R-Users-Group/">R User Group</a></li>
-          <li><a href="https://www.meetup.com/de-DE/creativeCodeBerlin/">Creative Coding</a></li>
-          <li><a href="https://www.meetup.com/de-DE/Maptime-BER/">Maptime</a></li>
+      <section>
+        <h3>Freelancer</h3>
+        <ul>
+          <li><a href="http://www.christianlaesser.com/">Christian Laesser</a></li>
+          <li><a href="http://davidelsche.com/">David Elsche</a></li>
+          <li><a href="http://kimalbrecht.com/">Kim Albrecht</a></li>
+          <li><a href="http://lisarienermann.com">Lisa Rienermann</a></li>
+          <li><a href="http://rulesrulesrules.studio/">RULES RULES RULES</a></li>
+          <li><a href="https://datadesign.studio/">Sebastian Sadowski</a></li>
+          <li><a href="http://www.steffenhaensch.de/">Steffen Hänsch</a></li>
         </ul>
+      </section>
 
-        <h3>Places to work / hack</h3>
-        <ul class="columns">
-          <li><a href="http://agoracollective.org/">Agora Collective</a></li>
-          <li><a href="https://www.betahaus.com/berlin/">Betahouse</a></li>
-          <li><a href="https://c-base.org/">C-Base</a></li>
-          <li><a href="http://co-up.de/">co-up.de</a></li>
-          <li><a href="http://factoryberlin.com/">Factory</a></li>
-          <li><a href="http://mindspace.me/de/berlin/">Mindspace</a></li>
-          <li><a href="http://sanktoberholz.de/">St. Oberholz</a></li>
-          <li><a href="https://www.wework.com/de-DE/l/berlin">WeWork</a></li>
+      <section>
+        <h3>Tools</h3>
+        <ul>
+          <li><a href="https://www.datawrapper.de/">Datawrapper</a></li>
+          <li><a href="https://www.trifacta.com/">Trifacta</a></li>
         </ul>
-
-      </div>
-      <footer>
-        <small>1.2018 &mdash; Creative Common &mdash; <a href="https://github.com/Data-Visualization-Berlin/Data-Visualization-Berlin.github.io">Source on Github</a></small>
-      </footer>
+      </section>
     </div>
-    <script>
-      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
-      ga('create', 'UA-304114-22', 'auto');
-      ga('send', 'pageview');
+    <h2>Places</h2>
+    <div class="boxes">
 
-    </script>
-  </body>
+      <section>
+        <h3>Universities</h3>
+        <ul>
+          <li><a href="https://www.fh-potsdam.de/studieren/fachbereiche/design/">FH Potsdam</a> (<a href="https://uclab.fh-potsdam.de/">Urban Complexity Lab</a>, <a href="https://twitter.com/nrchtct">Marian Dörk</a>, <a href="https://twitter.com/borism">Boris Müller</a>, <a href="https://infovis.fh-potsdam.de/">information+visualization</a>)</li>
+          <li><a href="http://www.hiig.de/">Alexander von Humboldt Institut für Internet und Gesellschaft</a> (<a href="http://www.hiig.de/digitaler-salon/">Digitaler Salon</a>)</li>
+          <li><a href="http://www.kunstgeschichte.hu-berlin.de/2012/07/exzellenzcluster-bild-wissen-gestaltung/">Exzellenzcluster »Bild Wissen Gestaltung. Ein interdisziplinäres Labor«</a></li>
+          <li>Universität der Künste (<a href="http://digital.udk-berlin.de/">Digitale Klasse</a>, <a href="https://www.udk-berlin.de/forschung/forschungseinrichtungen/design-research-lab/">Design Research Lab</a>, <a href="https://twitter.com/GescheJoost">Gesche Joost</a>)</li>
+        </ul>
+      </section>
 
-</html>
+      <section>
+        <h3>Museums / Galleries</h3>
+        <ul>
+          <li><a href="http://www.buchstabenmuseum.de/">Buchstaben Museum</a></li>
+          <li><a href="https://www.dam-gallery.de/">DAM gallery</a></li>
+          <li><a href="https://www.leap.de/">Leap</a></li>
+          <li><a href="http://www.mfk-berlin.de/">Museum für Kommunikation</a></li>
+          <li><a href="http://spektrumberlin.de/">Spektrum</a></li>
+        </ul>
+      </section>
+
+      <section>
+        <h3>Conferences</h3>
+        <ul>
+          <li><a href="https://retune.de/">Retune</a></li>
+          <li><a href="https://transmediale.de/">Transmediale</a></li>
+        </ul>
+      </section>
+
+    </div>
+
+    <h2>Meet other data people</h2>
+    <div>
+
+      <h3>Data vis people currently in Berlin</h3>
+      <ul class="columns">
+        <li><a href="https://twitter.com/Alsinosko">Alsino Skowronnek</a></li>
+        <li><a href="https://twitter.com/alterpaetz">André Pätzold</a></li>
+        <li><a href="https://twitter.com/borism">Boris Müller</a></li>
+        <li><a href="https://twitter.com/CedricKiefer">Cedric Kiefer</a></li>
+        <li><a href="https://twitter.com/christianlaessr">Christian Laesser</a></li>
+        <li><a href="https://twitter.com/chrtze">Christopher Möller</a></li>
+        <li><a href="https://twitter.com/chrispiecom">Christopher Pietsch</a></li>
+        <li><a href="https://twitter.com/DirkBrockmann">Dirk Brockmann</a></li>
+        <li><a href="https://twitter.com/ElscheDavid">David Elsche</a></li>
+        <li><a href="https://twitter.com/newreld">David Wendler</a></li>
+        <li><a href="https://twitter.com/dirkaschoff">Dirk Aschoff</a></li>
+        <li><a href="https://twitter.com/fidelthomet">Fidel Thomet</a></li>
+        <li><a href="https://twitter.com/flaviogortana">Flavio Gortana</a></li>
+        <li><a href="http://www.freder.io">Frederic Brodbeck</a></li>
+        <li><a href="https://twitter.com/driven_by_data">Gregor Aisch</a></li>
+        <li><a href="https://twitter.com/HerrStange">Jan-Erik Stange</a></li>
+        <li><a href="https://twitter.com/zeto">Jonas Parnow</a></li>
+        <li><a href="https://twitter.com/Jack Schaedler">Jack Schaedler</a></li>
+        <li><a href="https://twitter.com/julians">Julian Stahnke</a></li>
+        <li><a href="https://twitter.com/juliustroeger">Julius Tröger</a></li>
+        <li><a href="https://twitter.com/Lettebowskie">Katja Dittrich </a></li>
+        <li><a href="https://twitter.com/kaglinka">Katrin Glinka</a></li>
+        <li><a href="https://twitter.com/kimay">Kim Albrecht</a></li>
+        <li><a href="https://twitter.com/lgrammel">Lars Grammel</a></li>
+        <li><a href="https://twitter.com/lisacrost">Lisa Charlotte Rost</a></li>
+        <li><a href="https://twitter.com/@lisarienermann">Lisa Rienermann</a></li>
+        <li><a href="https://twitter.com/nrchtct">Marian Dörk</a></li>
+        <li><a href="https://twitter.com/studio_inca">Maximilian Nertinger</a></li>
+        <li><a href="https://twitter.com/data_meining">Michael Hoerz</a></li>
+        <li><a href="https://twitter.com/michaelkreil">Michael Kreil</a></li>
+        <li><a href="https://twitter.com/moklick">Moritz Klack</a></li>
+        <li><a href="https://twitter.com/nicolaskb">Nicolas Kayser-Bril</a></li>
+        <li><a href="https://twitter.com/colorfuldata">Paul Blickle</a></li>
+        <li><a href="https://twitter.com/paulpunkt">Paul Heinicker</a></li>
+        <li><a href="http://www.petercrnokrak.com/">Peter Crnokrak</a></li>
+        <li><a href="https://twitter.com/bockph">Philipp Bock</a></li>
+        <li><a href="https://twitter.com/labaume_de">Pierre La Baume</a></li>
+        <li><a href="https://xing.com/profile/Raimar_Heber">Raimar Heber</a></li>
+        <li><a href="https://twitter.com/srendgen">Sandra Rendgen</a></li>
+        <li><a href="https://twitter.com/venohr">Sascha Venohr</a></li>
+        <li><a href="https://twitter.com/seb_meier">Sebastian Meier</a></li>
+        <li><a href="https://twitter.com/sadowskiseb">Sebastian Sadowski</a></li>
+        <li><a href="https://twitter.com/geplapper">Christian Schlippes</a></li>
+        <li><a href="http://www.schwochow.de">Jan Schwochow</a></li>
+        <li><a href="https://twitter.com/yetzt">Sebastian Vollnhals</a></li>
+        <li><a href="https://twitter.com/stefanwehrmeyer">Stefan Wehrmeyer</a></li>
+        <li><a href="https://twitter.com/stphnthiel">Stephan Thiel</a></li>
+      </ul>
+
+      <h3>Related meetups</h3>
+      <ul class="columns">
+        <li><a href="https://www.meetup.com/de-DE/Hacks-Hackers-Berlin/">Hacks and Hackers</a></li>
+        <li><a href="https://www.meetup.com/de-DE/Datenjournalismus-Berlin/">Datenjournalismus</a></li>
+        <li><a href="https://www.meetup.com/de-DE/d3-js-berlin/">D3.js</a></li>
+        <li><a href="http://snd-dach.de/artikel/snd/dach-stammtisch-in-berlin/">SND/DACH Stammtisch</a></li>
+        <li><a href="https://www.meetup.com/de-DE/Berlin-R-Users-Group/">R User Group</a></li>
+        <li><a href="https://www.meetup.com/de-DE/creativeCodeBerlin/">Creative Coding</a></li>
+        <li><a href="https://www.meetup.com/de-DE/Maptime-BER/">Maptime</a></li>
+      </ul>
+
+      <h3>Places to work / hack</h3>
+      <ul class="columns">
+        <li><a href="http://agoracollective.org/">Agora Collective</a></li>
+        <li><a href="https://www.betahaus.com/berlin/">Betahouse</a></li>
+        <li><a href="https://c-base.org/">C-Base</a></li>
+        <li><a href="http://co-up.de/">co-up.de</a></li>
+        <li><a href="http://factoryberlin.com/">Factory</a></li>
+        <li><a href="http://mindspace.me/de/berlin/">Mindspace</a></li>
+        <li><a href="http://sanktoberholz.de/">St. Oberholz</a></li>
+        <li><a href="https://www.wework.com/de-DE/l/berlin">WeWork</a></li>
+      </ul>
+
+    </div>

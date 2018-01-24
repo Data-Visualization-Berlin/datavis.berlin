@@ -1,0 +1,65 @@
+body {
+  margin: 5em 0;
+}
+
+.container {
+  max-width: 1120px;
+  margin: 0 auto;
+  padding: 0 30px;
+}
+
+div.boxes {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+div.boxes section {
+  width: 100%;
+}
+
+ul.columns {
+  -webkit-column-count: 1;
+  -moz-column-count: 1;
+  column-count: 1;
+}
+
+@media only all and (min-width: 45em) {
+  p {
+    margin: 1em 0;
+    font-size: 1.4em;
+    line-height: 1.35;
+  }
+
+  div.boxes section {
+    width: 49%;
+  }
+
+  ul.columns {
+    -webkit-column-count: 2;
+    -moz-column-count: 2;
+    column-count: 2;
+  }
+}
+
+@media only all and (min-width: 70em) {
+  p {
+    margin: 1em 0;
+    font-size: 1.6em;
+    line-height: 1.4;
+  }
+
+  div.boxes section {
+    width: 32%;
+  }
+
+  ul.columns {
+    -webkit-column-count: 3;
+    -moz-column-count: 3;
+    column-count: 3;
+  }
+}
+
+footer {
+  margin-top: 4em;
+  text-align: center;
+}
