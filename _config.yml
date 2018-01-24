@@ -18,7 +18,7 @@ short_title: DataVis Berlin
 description: >- # this means to ignore newlines until "baseurl:"
   Monthly Data Visualisation Meetup in Berlin about Data Visulistation, Information Design, Statistics and Technology.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://datavis.berlin" # the base hostname & protocol for your site, e.g. http://example.com
+url: "http://datavis.berlin" # the base hostname & protocol for your site, e.g. http://example.com
 lang: en
 manifest_display: standalone
 manifest_background_color: "#FF4626"
