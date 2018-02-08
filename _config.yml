@@ -14,7 +14,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Data Visualisation Meetup Berlin
-short_title: DataVis Berlin
+short_title: DataVisBerlin
 description: >- # this means to ignore newlines until "baseurl:"
   Monthly Data Visualisation Meetup in Berlin about Data Visulistation, Information Design, Statistics and Technology.
 baseurl: "" # the subpath of your site, e.g. /blog
