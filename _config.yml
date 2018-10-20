@@ -22,6 +22,7 @@ url: "https://datavis.berlin" # the base hostname & protocol for your site, e.g.
 lang: en
 manifest_display: standalone
 manifest_background_color: "#FF4626"
+include: ['.htaccess']
 
 # Build settings
 markdown: kramdown
