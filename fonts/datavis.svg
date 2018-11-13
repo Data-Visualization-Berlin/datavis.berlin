@@ -1,0 +1,12 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg">
+<metadata>Copyright (C) 2018 by original authors @ fontello.com</metadata>
+<defs>
+<font id="datavis" horiz-adv-x="1000" >
+<font-face font-family="datavis" font-weight="400" font-stretch="normal" units-per-em="1000" ascent="850" descent="-150" />
+<missing-glyph horiz-adv-x="1000" />
+<glyph glyph-name="female" unicode="&#xe800;" d="M0 528q0 133 94 227t226 95 228-95 95-227q0-115-75-204t-185-111l0-103 137 0 0-123-137 0 0-137-123 0 0 137-139 0 0 123 139 0 0 103q-112 22-186 111t-74 204z m127 0q0-80 57-137t136-57 137 57 57 137-57 137-137 56-136-56-57-137z" horiz-adv-x="643" />
+</font>
+</defs>
+</svg>
