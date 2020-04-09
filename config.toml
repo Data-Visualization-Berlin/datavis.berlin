@@ -1,4 +1,4 @@
-baseURL = "http://zeto.horologium.uberspace.de/datavis/"
+baseURL = "https://datavis.berlin"
 languageCode = "en-gb"
 title = "Datavis Meetup Berlin"
 disableKinds = ["taxonomy", "taxonomyTerm", "jobs", "section", "tags"]
