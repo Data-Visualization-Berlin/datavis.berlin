@@ -86,7 +86,7 @@ a {
 	text-decoration-color: rgba($color-accent, 0.5);
 	transition: text-decoration-color $transition;
 
-  &[href^="#"]  {
+  &[href^="#"], &[rel="self"] {
     text-decoration: none;
     text-decoration-color: #fff;
   }
