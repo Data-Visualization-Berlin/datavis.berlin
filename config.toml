@@ -1,6 +1,6 @@
 baseURL = "https://datavis.berlin"
 languageCode = "en-gb"
-title = "Datavis Meetup Berlin"
+title = "Datavis Berlin"
 disableKinds = ["taxonomy", "taxonomyTerm", "jobs", "section", "tags"]
 invisibleSections = ["jobs"]
 
