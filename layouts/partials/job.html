@@ -1,6 +1,6 @@
 <li>
   <a href="{{ .Params.link }}">
     <strong class="job-title">{{ .Title }}</strong>
-    <span>{{ .Params.place }}, starting {{ with .Params.start }}<time datetime="{{ . }}">{{ dateFormat "2nd Jan 2006" . }}</time>{{ else }}any time{{ end }}</span>
+    <span>{{ .Params.place }}, start {{ with .Params.start }}<time datetime="{{ . }}">{{ dateFormat "2nd Jan 2006" . }}</time>{{ else }}any time{{ end }}</span>
   </a>
 </li>
