@@ -8,9 +8,9 @@
       {{ .Content }}
     </div>
     <div class="homepage-content">
-      {{ partial "headline.html" (dict "id" "professional" "label" "Professional data visualisation in Berlin") }}
+      {{ partial "headline.html" (dict "id" "professional" "label" "Professional data visualisation") }}
       <section aria-labelledby="professional">
-        {{ partial "subheadline.html" (dict "id" "jobs" "title" "Job offerings") }}
+        {{ partial "subheadline.html" (dict "id" "jobs" "title" "Job offers") }}
         {{ partial "jobs.html" (dict "context" . "id" "jobs") }}
         <small class="note">Do you have a job offering? Contact <a href="mailto:jonas-at-datavis.berlin?subject=Job Offering&body=Title:%0DLink:%0DPlace:%0DStart:%0DExpiry Date:">me</a> or make a <a href="https://github.com/Data-Visualization-Berlin/Datavis-Berlin-Website">pull request</a> yourself. If you want to get updates, subscribe to the <a href="{{ "index.xml" | absURL }}">RSS feed</a>.</small>
       </section>
