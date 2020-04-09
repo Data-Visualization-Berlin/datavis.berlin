@@ -5,7 +5,7 @@ disableKinds = ["taxonomy", "taxonomyTerm", "jobs", "section", "tags"]
 invisibleSections = ["jobs"]
 
 [params]
-  description = "An open list to the data visualisation scene in Berlin. All people, things and places that are visualisation, infographic, data art, data journalism, research, and data tool related, are welcome!"
+  description = "An open list to the data visualisation scene in Berlin. All people, things and places that are related to visualisation, infographic, data art, data journalism, reasearch, and data tools are welcome!"
   author = "zeto"
   telegram = "visber"
   source = "https://github.com/Data-Visualization-Berlin/Datavis-Berlin-Website"
