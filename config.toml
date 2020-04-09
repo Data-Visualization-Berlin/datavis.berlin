@@ -1,0 +1,13 @@
+baseURL = "http://zeto.horologium.uberspace.de/datavis/"
+languageCode = "en-gb"
+title = "Datavis Meetup Berlin"
+disableKinds = ["taxonomy", "taxonomyTerm", "jobs", "section", "tags"]
+invisibleSections = ["jobs"]
+
+[params]
+  description = "Monthly Data Visualisation Meetup in Berlin about Data Visulistation, Information Design, Statistics and Technology."
+  author = "zeto"
+  telegram = "visber"
+  source = "https://github.com/Data-Visualization-Berlin/Datavis-Berlin-Website"
+  imprint = "https://jonasparnow.com/imprint"
+  privacy = "https://jonasparnow.com/privacy"

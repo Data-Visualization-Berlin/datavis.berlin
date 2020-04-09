@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Datavis Meetup Berlin</title>
+    <link>http://zeto.horologium.uberspace.de/datavis/</link>
+    <description>Recent job offerings on Datavis Meetup Berlin</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <lastBuildDate>Wed, 11 Mar 2020 11:46:31 +0100</lastBuildDate>
+    
+	<atom:link href="http://zeto.horologium.uberspace.de/datavis/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Design Director Sapera 1</title>
+      <link></link>
+      <pubDate>Thu, 09 Apr 2020 14:27:04 +0200</pubDate>
+      <guid>design-director-sapera-1</guid>
+      <description>, starting any time</description>
+    </item>
+    
+    <item>
+      <title>Design Director UI/Data Viz (full time) M/F/D</title>
+      <link>https://www.infographics.group/jobs/design-director/</link>
+      <pubDate>Wed, 08 Apr 2020 13:22:57 +0200</pubDate>
+      <guid>design-director-sapera-2020</guid>
+      <description>Sapera, starting any time</description>
+    </item>
+    
+  </channel>
+</rss>
