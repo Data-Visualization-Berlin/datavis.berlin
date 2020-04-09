@@ -1,12 +1,12 @@
 @import "./global";
 
 ::-moz-selection {
-  color: #fff;
+  color: $color-white;
   background-color: $color-accent;
 }
 
 ::selection {
-  color: #fff;
+  color: $color-white;
   background-color: $color-accent;
 }
 
@@ -88,7 +88,7 @@ a {
 
   &[href^="#"], &[rel="self"] {
     text-decoration: none;
-    text-decoration-color: #fff;
+    text-decoration-color: $color-white;
   }
 
 	&:hover, &:focus {
@@ -141,8 +141,8 @@ ul {
     }
 
     a {
-    	color: #000;
-    	text-decoration-color: #fff;
+    	color: $color-default;
+    	text-decoration-color: $color-white;
     	transition: text-decoration-color $transition;
 
     	&:hover, &:focus {
