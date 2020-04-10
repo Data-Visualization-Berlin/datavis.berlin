@@ -1,10 +1,10 @@
 {{ $jobs := where .context.Site.RegularPages "Section" "jobs" }}
 {{ if $jobs }}
-	<ul aria-labelledby="{{ .id }}">
-	  {{ range $jobs }}
-	  {{ partial "job.html" . }}
-	  {{ end }}
-	</ul>
+  <ul aria-labelledby="{{ .id }}">
+    {{ range $jobs }}
+    {{ partial "job.html" . }}
+    {{ end }}
+  </ul>
 {{else}}
 <span class="mute">There are currently no job vacancies here.</span>
 {{ end }}
