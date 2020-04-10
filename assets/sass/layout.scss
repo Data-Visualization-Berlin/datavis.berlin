@@ -4,12 +4,12 @@ body {
   margin: $spacing 0;
 
   @include query($narrow) {
-		margin: $spacing * 2 0;
-	}
+    margin: $spacing * 2 0;
+  }
 
-	@include query($medium) {
-		margin: $spacing * 3 0;
-	}
+  @include query($medium) {
+    margin: $spacing * 3 0;
+  }
 }
 
 .container {
@@ -18,12 +18,12 @@ body {
   padding: 0 $spacing / 2;
 
   @include query($narrow) {
-		padding: 0 $spacing;
-	}
+    padding: 0 $spacing;
+  }
 
   @include query($medium) {
-		padding: 0 $spacing * 2;
-	}
+    padding: 0 $spacing * 2;
+  }
 }
 
 .category {
@@ -31,54 +31,54 @@ body {
   flex-wrap: wrap;
 
   &.wrap {
-  	.list {
-		  width: 100%;
+    .list {
+      width: 100%;
 
-		  @include query($narrow) {
-				width: 49%;
-			}
+      @include query($narrow) {
+        width: 49%;
+      }
 
-			@include query($wide) {
-				width: 33%;
-			}
-		}
+      @include query($wide) {
+        width: 33%;
+      }
+    }
 
-		&.professional .list {
-			&:last-child {
-				width: 100%;
+    &.professional .list {
+      &:last-child {
+        width: 100%;
 
-				ul {
-					@include query($narrow) {
-						column-count: 2;
-					}
+        ul {
+          @include query($narrow) {
+            column-count: 2;
+          }
 
-					@include query($wide) {
-						column-count: 3;
-					}
-				}
-			}
-		}
+          @include query($wide) {
+            column-count: 3;
+          }
+        }
+      }
+    }
   }
 
-	&.columns {
-		.list {
-			width: 100%;
-		}
+  &.columns {
+    .list {
+      width: 100%;
+    }
 
-		ul {
-		  column-count: 1;
+    ul {
+      column-count: 1;
 
-		  @include query($narrow) {
-				column-count: 2;
-			}
+      @include query($narrow) {
+        column-count: 2;
+      }
 
-			@include query($wide) {
-				column-count: 3;
-			}
-		}
-	}
+      @include query($wide) {
+        column-count: 3;
+      }
+    }
+  }
 }
 
 .page-footer {
-	margin-top: $spacing * 2;
+  margin-top: $spacing * 2;
 }

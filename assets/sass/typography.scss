@@ -11,9 +11,9 @@
 }
 
 .logo {
-	font-weight: $font-weight-bold;
-	line-height: 1.1;
-	margin-bottom: $spacing / 2;
+  font-weight: $font-weight-bold;
+  line-height: 1.1;
+  margin-bottom: $spacing / 2;
   display: inline-block;
   position: relative;
   margin-left: 2.8rem;
@@ -83,16 +83,16 @@ h2, h3 {
 }
 
 a {
-	color: $color-default;
-	text-decoration-color: rgba($color-accent, 0.5);
-	transition: text-decoration-color $transition;
+  color: $color-default;
+  text-decoration-color: rgba($color-accent, 0.5);
+  transition: text-decoration-color $transition;
 
   &[href^="#"], &[rel="self"] {
     text-decoration: none;
     text-decoration-color: $color-white;
   }
 
-	&:hover, &:focus {
+  &:hover, &:focus {
     &:not(.headline) {
       text-decoration: underline;
       text-decoration-color: $color-accent;
@@ -101,26 +101,26 @@ a {
     &.headline > * {
       border-bottom-color: $color-accent;
     }
-	}
+  }
 }
 
 p {
-	@include query($medium) {
+  @include query($medium) {
     margin: $spacing 0;
     font-size: 1.1rem;
     line-height: 1.35;
-	}
+  }
 
-	@include query($wide) {
+  @include query($wide) {
     margin: $spacing 0;
     line-height: 1.4;
     width: 66%;
-	}
+  }
 }
 
 .homepage-content .note {
-	display: block;
-	margin: $spacing / 2 0;
+  display: block;
+  margin: $spacing / 2 0;
 }
 
 ul {
@@ -142,14 +142,14 @@ ul {
     }
 
     a {
-    	color: $color-default;
-    	text-decoration-color: $color-white;
-    	transition: text-decoration-color $transition;
+      color: $color-default;
+      text-decoration-color: $color-white;
+      transition: text-decoration-color $transition;
 
-    	&:hover, &:focus {
-    		text-decoration: underline;
-    		text-decoration-color: $color-accent;
-    	}
+      &:hover, &:focus {
+        text-decoration: underline;
+        text-decoration-color: $color-accent;
+      }
     }
   }
 }
