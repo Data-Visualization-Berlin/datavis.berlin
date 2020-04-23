@@ -6,7 +6,9 @@ invisibleSections = ["jobs"]
 
 [params]
   description = "An open list to the data visualisation scene in Berlin. All people, things and places that are related to visualisation, infographic, data art, data journalism, reasearch, and data tools are welcome!"
-  author = "zeto"
+  keywords = "data visualisation visualization Visualisierung Daten infographic infromation graphic Infografik Informationsgrafik journalism Journalismus"
+  author = "Jonas Parnow"
+  twitter = "zeto"
   telegram = "visber"
   source = "https://github.com/Data-Visualization-Berlin/Datavis-Berlin-Website"
   imprint = "https://jonasparnow.com/imprint"

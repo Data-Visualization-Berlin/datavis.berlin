@@ -3,7 +3,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <title>{{ .Site.Title }}</title>
   <meta name="description" content="{{ .Site.Params.description }}">
+  <meta name="keywords" content="{{ .Site.Params.keywords }}">
+  <meta name="author" content="{{ .Site.Params.author }}">
   <meta name="robots" content="index,follow">
+
+  <link rel="license" href="//creativecommons.org/licenses/by-nc-nd/4.0">
 
   <meta name="ICBM" content="52.518611, 13.408333">
   <meta name="geo.position" content="52.518611;13.408333">
@@ -12,7 +16,6 @@
 
   <meta name="telegram:channel" content="@{{ .Site.Params.telegram }}">
 
-  <link rel="me" href="https://jonasparnow.com" type="text/html">
   <link rel="me" href="mailto:jonas-at-datavis.berlin">
 
   <meta property="og:url" content="{{ .Site.BaseURL }}">
@@ -24,7 +27,7 @@
   <meta property="og:locale" content="{{ .Site.LanguageCode }}">
 
   <meta name="twitter:card" content="summary">
-  <meta name="twitter:creator" content="@{{ .Site.Params.author }}">
+  <meta name="twitter:creator" content="@{{ .Site.Params.twitter }}">
   <meta name="twitter:url" content="{{ .Site.BaseURL }}">
   <meta name="twitter:title" content="{{ .Site.Title }}">
   <meta name="twitter:description" content="{{ .Site.Params.description }}">
