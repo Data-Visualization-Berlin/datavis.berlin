@@ -1,5 +1,5 @@
 <li>
-  <a href="{{ .Params.link }}">
+  <a href="{{ .Params.link }}" rel="noopener noreferrer">
     <strong class="job-title">{{ .Title }}</strong>
     <span>{{ .Params.place }}, start {{ with .Params.start }}<time datetime="{{ . }}">{{ dateFormat "2nd Jan 2006" . }}</time>{{ else }}any time{{ end }}</span>
   </a>
