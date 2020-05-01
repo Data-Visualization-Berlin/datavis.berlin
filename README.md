@@ -49,7 +49,7 @@ Here, every item consists of three elements. First the institute, then the label
 ## Adding a job offer
 Every job offer is a file in the `/content/jobs/` folder. You can a new job with Hugo with
 ```bash
-hugo new jobs/unique-job-name.md`.
+hugo new jobs/unique-job-name.md
 ```
 Without Hugo, just create a file with a **unique job name** (for example `sapera-design-director-2020.md`) in the `jobs` folder.
 
