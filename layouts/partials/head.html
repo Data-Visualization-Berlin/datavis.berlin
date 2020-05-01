@@ -9,6 +9,10 @@
 
   <link rel="license" href="//creativecommons.org/licenses/by-nc-nd/4.0">
 
+  {{ range $.Site.Home.AllTranslations }}
+  <link rel="alternate" hreflang="{{ .Language.Lang }}" href="{{ .Permalink }}"/>
+  {{ end }}
+
   <meta name="ICBM" content="52.518611, 13.408333">
   <meta name="geo.position" content="52.518611;13.408333">
   <meta name="geo.region" content="DE">

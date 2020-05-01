@@ -1,0 +1,99 @@
+[home]
+other = "Zu Hause"
+
+[professional]
+other = "Professionalle Datenvisualisierung"
+
+[joboffers]
+other = "Jobangebote"
+
+[deadline]
+other = "Bewerbungsfrist bis"
+
+[anytime]
+other = "jeder Zeit"
+
+[nojobs]
+other = "Momemtan keine Jobangebote vorhanden"
+
+[contact]
+other = 'Hast du ein Jobangebot? Kontaktiere <a href="mailto:jonas-at-datavis.berlin?subject=Jobangebot&body=Title:%0DLink:%0DOrt:%0DStart:%0DBewerbungsfrist:">mich</a> oder mach selbst einen <a href="https://github.com/Data-Visualization-Berlin/Datavis-Berlin-Website">Pull Request</a>.'
+
+[rss]
+other = 'If you want to get updates, subscribe to the <a href="{{ . }}">RSS feed</a>.'
+
+[information]
+other = "Informationsdesign"
+
+[visualisation]
+other = "Daten Visualisierung"
+
+[art]
+other = "Daten Kunst"
+
+[newsrooms]
+other = "Datenjournalismus"
+
+[research]
+other = "Forschung"
+
+[tools]
+other = "Programmentwicklung"
+
+[freelancer]
+other = "Freiberufler"
+
+[places]
+other = "Orte"
+
+[universities]
+other = "Universitäten"
+
+[museums]
+other = "Museen"
+
+[conferences]
+other = "Konferenzen"
+
+[meet]
+other = "Treffe andere Visualisierungsmenschen"
+
+[people]
+other = "Datavis Menschen momentan in Berlin"
+
+[meetups]
+other = "Meetups"
+
+[hackspace]
+other = "Orte zum Arbeiten / Hacken / Machen / Teilen / Kennenlernen / Organisieren"
+
+[programmes]
+other = "Verwandte Studiengänge in Deutschland"
+
+[bachelor]
+other = "Bachelor"
+
+[master]
+other = "Master"
+
+[labs]
+other = "Labore und Forschungscluster"
+
+[more]
+other = "Finde mehr Studiengänge in "
+
+[article]
+other = "Andy Kirks »Data Visualisation Programmes and Qualifications« Artikel"
+
+[updated]
+other = "Zuletzt aktualisiert"
+
+[github]
+other = "Quellcode auf Github"
+
+[imprint]
+other = "Impressum"
+
+[privacy]
+other = "Datenschutz"
+

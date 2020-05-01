@@ -3,25 +3,31 @@
   <main aria-role="main" class="container">
     <header class="homepage-header">
       <a href="{{ .Site.BaseURL }}" rel="self"><h1 class="logo"><i class="icon icon-logo" aria-hidden="true"></i>{{ .Title }}</h1></a>
+      <nav>
+        {{ $current := .Site.Language.Lang }}
+        {{ range (where $.Site.Home.AllTranslations "Language.Lang" "!=" $current) }}
+        <a href="{{ .Permalink }}" rel="alternate" hreflang="{{ .Language.Lang }}">{{  index .Site.Params.switch .Language.Lang }}</a>
+        {{ end }}
+      </nav>
     </header>
     <div class="homepage-intro">
       {{ .Content }}
     </div>
     <div class="homepage-content">
-      {{ partial "headline.html" (dict "id" "professional" "label" "Professional data visualisation") }}
+      {{ partial "headline.html" (dict "id" "professional" "label" (i18n "professional")) }}
       <section aria-labelledby="professional">
-        {{ partial "subheadline.html" (dict "id" "jobs" "title" "Job offers") }}
+        {{ partial "subheadline.html" (dict "id" "jobs" "title" (i18n "joboffers")) }}
         {{ partial "jobs.html" (dict "context" . "id" "jobs") }}
-        <small class="note">Do you have a job offer? Contact <a href="mailto:jonas-at-datavis.berlin?subject=Job Offering&body=Title:%0DLink:%0DPlace:%0DStart:%0DExpiry Date:">me</a> or make a <a href="https://github.com/Data-Visualization-Berlin/Datavis-Berlin-Website">pull request</a> yourself. If you want to get updates, subscribe to the <a href="{{ "index.xml" | absURL }}">RSS feed</a>.</small>
+        <small class="note">{{ i18n "contact" | safeHTML }} {{ (i18n "rss" ("index.xml" | absURL)) | safeHTML }}</small>
       </section>
       {{ partial "list.html" (dict "items" $.Site.Data "id" "professional" "layout" "wrap") }}
-      {{ partial "headline.html" (dict "id" "places" "label" "Places") }}
+      {{ partial "headline.html" (dict "id" "places" "label" (i18n "places")) }}
       {{ partial "list.html" (dict "items" $.Site.Data "id" "places" "layout" "wrap") }}
-      {{ partial "headline.html" (dict "id" "meet" "label" "Meet other data people") }}
+      {{ partial "headline.html" (dict "id" "meet" "label" (i18n "meet")) }}
       {{ partial "list.html" (dict "items" $.Site.Data "id" "meet" "layout" "columns") }}
-      {{ partial "headline.html" (dict "id" "programmes" "label" "Related degree programmes in Germany") }}
+      {{ partial "headline.html" (dict "id" "programmes" "label" (i18n "programmes")) }}
       {{ partial "list.html" (dict "items" $.Site.Data "id" "programmes" "layout" "wrap") }}
-      <small class="note">Find more programmes at <a href="http://www.visualisingdata.com/2018/06/data-visualisation-programmes-qualifications/">Andy Kirk’s »Data Visualisation Programmes and Qualifications« post</a>.</small>
+      <small class="note">{{ i18n "more" }} <a href="http://www.visualisingdata.com/2018/06/data-visualisation-programmes-qualifications/">{{ i18n "article" }}</a>.</small>
     </div>
   </main>
 

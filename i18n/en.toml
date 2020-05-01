@@ -1,0 +1,99 @@
+[home]
+other = "Home"
+
+[professional]
+other = "Professional data visualisation"
+
+[joboffers]
+other = "Job offers"
+
+[deadline]
+other = "deadline until"
+
+[anytime]
+other = "any time"
+
+[nojobs]
+other = "There are currently no job vacancies here."
+
+[contact]
+other = 'Do you have a job offer? Contact <a href="mailto:jonas-at-datavis.berlin?subject=Job Offering&body=Title:%0DLink:%0DPlace:%0DStart:%0DDeadline:">me</a> or make a <a href="https://github.com/Data-Visualization-Berlin/Datavis-Berlin-Website">pull request</a> yourself.'
+
+[rss]
+other = 'If you want to get updates, subscribe to the <a href="{{ . }}">RSS feed</a>.'
+
+[information]
+other = "Information design"
+
+[visualisation]
+other = "Data visualisation"
+
+[art]
+other = "Data Art"
+
+[newsrooms]
+other = "Newsrooms"
+
+[research]
+other = "Research"
+
+[tools]
+other = "Tools"
+
+[freelancer]
+other = "Freelancer"
+
+[places]
+other = "Places"
+
+[universities]
+other = "Universities"
+
+[museums]
+other = "Museums"
+
+[conferences]
+other = "Conferences"
+
+[meet]
+other = "Meet other data people"
+
+[people]
+other = "Data vis people currently in Berlin"
+
+[meetups]
+other = "Meetups"
+
+[hackspace]
+other = "Places to work / hack / make / share / connect / organise"
+
+[programmes]
+other = "Related degree programmes in Germany"
+
+[bachelor]
+other = "Bachelor"
+
+[master]
+other = "Master"
+
+[labs]
+other = "Labs and research clusters"
+
+[more]
+other = "Find more programmes in"
+
+[article]
+other = "Andy Kirk’s »Data Visualisation Programmes and Qualifications« article"
+
+[updated]
+other = "Last updated"
+
+[github]
+other = "Source on Github"
+
+[imprint]
+other = "Imprint"
+
+[privacy]
+other = "Privacy"
+

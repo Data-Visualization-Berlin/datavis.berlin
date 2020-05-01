@@ -1,4 +1,4 @@
-{{ $jobs := where .context.Site.RegularPages "Section" "jobs" }}
+{{ $jobs := where .context.Sites.First.RegularPages "Section" "jobs" }}
 {{ if $jobs }}
   <ul aria-labelledby="{{ .id }}">
     {{ range $jobs }}
@@ -6,5 +6,5 @@
     {{ end }}
   </ul>
 {{else}}
-<span class="mute">There are currently no job vacancies here.</span>
+<span class="mute">{{ i18n "nojobs" }}</span>
 {{ end }}

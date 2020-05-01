@@ -1,15 +1,36 @@
-baseURL = "https://datavis.berlin"
-languageCode = "en-gb"
 title = "Datavis Berlin"
-disableKinds = ["taxonomy", "taxonomyTerm", "jobs", "section", "tags"]
 invisibleSections = ["jobs"]
+
+[markup.goldmark.renderer]
+  unsafe = true
 
 [params]
   description = "An open list to the data visualisation scene in Berlin. All people, things and places that are related to visualisation, infographic, data art, data journalism, reasearch, and data tools are welcome!"
-  keywords = "data visualisation visualization Visualisierung Daten infographic infromation graphic Infografik Informationsgrafik journalism Journalismus"
+  keywords = "data visualisation visualization design infographic infromation graphic data-driven journalism ddj interfacedesgin"
   author = "Jonas Parnow"
   twitter = "zeto"
   telegram = "visber"
   source = "https://github.com/Data-Visualization-Berlin/Datavis-Berlin-Website"
   imprint = "https://jonasparnow.com/imprint"
   privacy = "https://jonasparnow.com/privacy"
+
+  [params.switch]
+  	en = "Switch to English"
+  	de = "Zu Deutsch wechseln"
+
+[languages]
+  [languages.en]
+    baseURL = "https://datavis.berlin"
+    LanguageName = "English"
+    languageCode = "en"
+    weight = 1
+    disableKinds = ["taxonomy", "taxonomyTerm", "jobs", "section", "tags"]
+    link = "Switch to English"
+  [languages.de]
+    baseURL = "https://de.datavis.berlin"
+    description = "Eine offene List der Datenvisualisierungsszene in Berlin. Alle Menschen, Dinge und Orte, die mit Visualisierung, Infografik, Datenkunst, Datenjournalismus, Forschung und Datenanwendungen verwandt sind, sind willkommen!"
+    keywords = "Visualisierung Daten Infografik Design Informationsgrafik Datenjournalismus DDJ Statistik Interfacedesign"
+    LanguageName = "Deutsch"
+    languageCode = "de"
+    weight = 2
+    disableKinds = ["taxonomy", "taxonomyTerm", "jobs", "section", "tags"]
