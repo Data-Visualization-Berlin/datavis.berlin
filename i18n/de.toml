@@ -20,7 +20,7 @@ other = "Momemtan keine Jobangebote vorhanden"
 other = 'Hast du ein Jobangebot? Kontaktiere <a href="mailto:jonas-at-datavis.berlin?subject=Jobangebot&body=Title:%0DLink:%0DOrt:%0DStart:%0DBewerbungsfrist:">mich</a> oder mach selbst einen <a href="https://github.com/Data-Visualization-Berlin/Datavis-Berlin-Website">Pull Request</a>.'
 
 [rss]
-other = 'If you want to get updates, subscribe to the <a href="{{ . }}">RSS feed</a>.'
+other = 'Wenn du Updates bekommen möchtest, kannst du den <a href="{{ . }}">RSS Feed</a> abonnieren.'
 
 [information]
 other = "Informationsdesign"
