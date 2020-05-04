@@ -8,7 +8,7 @@ other = "Professional data visualisation"
 other = "Job offers"
 
 [deadline]
-other = "deadline until"
+other = "deadline on"
 
 [anytime]
 other = "any time"
@@ -84,6 +84,15 @@ other = "Find more programmes in"
 
 [article]
 other = "Andy Kirk’s »Data Visualisation Programmes and Qualifications« article"
+
+[translation1]
+other = "Many thanks to"
+
+[translation2]
+other = "and"
+
+[translation3]
+other = "for the translation of this website."
 
 [updated]
 other = "Last updated"

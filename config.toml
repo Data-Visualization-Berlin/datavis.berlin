@@ -25,7 +25,6 @@ invisibleSections = ["jobs"]
     languageCode = "en"
     weight = 1
     disableKinds = ["taxonomy", "taxonomyTerm", "jobs", "section", "tags"]
-    link = "Switch to English"
   [languages.de]
     baseURL = "https://de.datavis.berlin"
     description = "Eine offene List der Datenvisualisierungsszene in Berlin. Alle Menschen, Dinge und Orte, die mit Visualisierung, Infografik, Datenkunst, Datenjournalismus, Forschung und Datenanwendungen verwandt sind, sind willkommen!"
