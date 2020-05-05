@@ -1,0 +1,101 @@
+[professional]
+other = "Professional data visualisation"
+
+[joboffers]
+other = "Offerte di lavoro"
+
+[deadline]
+other = "deadline il"
+
+[nojobs]
+other = "Al momento non ci sono offerte di lavoro."
+
+[contact]
+other = 'Stai assumendo? <a href="mailto:jonas-at-datavis.berlin?subject=Job Offering&body=Title:%0DLink:%0DPlace:%0DStart:%0DDeadline:">Contattami</a> oppure fai una <a href="https://github.com/Data-Visualization-Berlin/Datavis-Berlin-Website">pull request</a>.'
+
+[rss]
+other = 'Per ricevere gli aggiornamenti, iscriviti all&#39; <a href="{{ . }}">RSS feed</a>.'
+
+[information]
+other = "Information design"
+
+[visualisation]
+other = "Data visualisation"
+
+[art]
+other = "Data Art"
+
+[newsrooms]
+other = "Redazioni"
+
+[research]
+other = "Ricerca"
+
+[tools]
+other = "Tools"
+
+[freelancer]
+other = "Freelancer"
+
+[places]
+other = "Luoghi"
+
+[universities]
+other = "Università"
+
+[museums]
+other = "Musei"
+
+[conferences]
+other = "Conferenze"
+
+[meet]
+other = "Incontra altri data vis designers"
+
+[people]
+other = "Data vis people attualmente a Berlino"
+
+[meetups]
+other = "Meetups"
+
+[hackspace]
+other = "Posti dove lavorare / incontrarsi / organizzarsi / condividere / fare"
+
+[programmes]
+other = "Relativi indirizzi e corsi universitari in Germania"
+
+[bachelor]
+other = "Triennale"
+
+[master]
+other = "Master"
+
+[labs]
+other = "Laboratori e gruppi di ricerca"
+
+[more]
+other = "Per scoprire altri indirizzi e corsi, leggi"
+
+[article]
+other = 'l’articolo di Andy Kirk »Data Visualisation Programmes and Qualifications«'
+
+[translation1]
+other = "Grazie a"
+
+[translation2]
+other = "e"
+
+[translation3]
+other = "per le traduzioni."
+
+[updated]
+other = "Ultimo aggiornamento:"
+
+[github]
+other = "Source on Github"
+
+[imprint]
+other = "Imprint"
+
+[privacy]
+other = "Privacy"

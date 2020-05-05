@@ -6,7 +6,7 @@
       <nav>
         {{ $current := .Site.Language.Lang }}
         {{ range (where $.Site.Home.AllTranslations "Language.Lang" "!=" $current) }}
-        <a href="{{ .Permalink }}" rel="alternate" hreflang="{{ .Language.Lang }}">{{  index .Site.Params.switch .Language.Lang }}</a>
+        <a href="{{ .Permalink }}" rel="alternate" hreflang="{{ .Language.Lang }}">{{  .Language.LanguageName }}</a>
         {{ end }}
       </nav>
     </header>

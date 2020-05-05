@@ -1,6 +1,3 @@
-[home]
-other = "Home"
-
 [professional]
 other = "Professional data visualisation"
 
@@ -9,9 +6,6 @@ other = "Job offers"
 
 [deadline]
 other = "deadline on"
-
-[anytime]
-other = "any time"
 
 [nojobs]
 other = "There are currently no job vacancies here."

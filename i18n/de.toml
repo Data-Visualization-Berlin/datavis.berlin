@@ -1,6 +1,3 @@
-[home]
-other = "Zu Hause"
-
 [professional]
 other = "Professionalle Datenvisualisierung"
 
@@ -9,9 +6,6 @@ other = "Jobangebote"
 
 [deadline]
 other = "Bewerbungsfrist am"
-
-[anytime]
-other = "jeder Zeit"
 
 [nojobs]
 other = "Momemtan keine Jobangebote vorhanden"
