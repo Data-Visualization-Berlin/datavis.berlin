@@ -1,5 +1,2 @@
 /icons/*
-  Access-Control-Allow-Origin: https://de.datavis.berlin
-
-/icons/*
-  Access-Control-Allow-Origin: https://it.datavis.berlin
+  Access-Control-Allow-Origin: *
