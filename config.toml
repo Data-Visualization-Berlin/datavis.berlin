@@ -1,4 +1,4 @@
-title = "Datavis Berlin"
+title = "Data visualisation Berlin"
 invisibleSections = ["jobs"]
 
 [markup.goldmark.renderer]
@@ -26,6 +26,7 @@ invisibleSections = ["jobs"]
     weight = 1
     disableKinds = ["taxonomy", "taxonomyTerm", "jobs", "section", "tags"]
   [languages.de]
+    title = "Daten Visualisierung Berlin"
     baseURL = "https://de.datavis.berlin"
     description = "Eine offene List der Datenvisualisierungsszene in Berlin. Alle Menschen, Dinge und Orte, die mit Visualisierung, Infografik, Datenkunst, Datenjournalismus, Forschung und Datenanwendungen verwandt sind, sind willkommen!"
     keywords = "Visualisierung Daten Infografik Design Informationsgrafik Datenjournalismus DDJ Statistik Interfacedesign"
@@ -35,6 +36,7 @@ invisibleSections = ["jobs"]
     disableKinds = ["taxonomy", "taxonomyTerm", "jobs", "section", "tags"]
   [languages.it]
     baseURL = "https://it.datavis.berlin"
+    title = "Data visualization Berlin"
     description = "Una lista aperta dedicata alla scena berlinese della data visualisation. Tutto ciò che riguarda persone, cose e luoghi che riguardano la visualizzazione dati, infografica, giornalismo con i dati, ricerca e data tools è benvenuto!"
     keywords = "data visualization visualizzatione dati design infografiche information design grafica con i dati giornalismo con i dati interfacedesign data-driven journalism"
     LanguageName = "Italiano"
