@@ -75,3 +75,4 @@ link: "https://boards.greenhouse.io/wikimedia/jobs/2083317?gh_src=fd611a951"
 # Log
 - 10.4.2020: [Contentonauten](https://www.contentonauten.de/) added
 - 10.4.2020: Spektrum Berlin removed
+- 15.5.2020: [Mila Frerichs](http://milafrerichs.de/) added
