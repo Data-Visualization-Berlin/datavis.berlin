@@ -72,6 +72,23 @@ link: "https://boards.greenhouse.io/wikimedia/jobs/2083317?gh_src=fd611a951"
 ---
 ```
 
+## Adding a translation
+That would be super good :)
+
+The files that need to be translated are [content/_index.md](content/_index.md), [i18n/en.toml](i18n/en.toml) and parts of [config.toml](config.toml). All can be opend in a text editor.
+
+In the first TOML file, the part after `other =` is where the translation goes. The part above is the key, where the text is placed.
+In the Markdown file, the `title` and everything after the three dashes needs to be translated.
+In the config TOML file, these parts are relevant:
+```
+LanguageName = "English"
+description = "An open list to the data visualisation scene in Berlin. All people, things and places that are related to visualisation, infographic, data art, data journalism, reasearch, and data tools are welcome!"
+keywords = "data visualisation visualization design infographic infromation graphic data-driven journalism ddj interfacedesgin"
+```
+
+If you need more guidance, feel free to ask me :)
+
+
 # Log
 - 10.4.2020: [Contentonauten](https://www.contentonauten.de/) added
 - 10.4.2020: Spektrum Berlin removed
