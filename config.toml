@@ -14,10 +14,6 @@ invisibleSections = ["jobs"]
   imprint = "https://jonasparnow.com/imprint"
   privacy = "https://jonasparnow.com/privacy"
 
-  [params.switch]
-  	en = "Switch to English"
-  	de = "Zu Deutsch wechseln"
-
 [languages]
   [languages.en]
     baseURL = "https://datavis.berlin"
