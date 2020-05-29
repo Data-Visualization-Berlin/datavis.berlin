@@ -96,3 +96,4 @@ If you need more guidance, feel free to ask me :)
 - 29.5.2020: French translation added
 - 29.5.2020: Sara Akhlaq added
 - 29.5.2020: Christopher Pietsch added
+- 29.5.2020: Tori Boeck added
