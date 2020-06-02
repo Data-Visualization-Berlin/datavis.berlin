@@ -88,8 +88,7 @@ keywords = "data visualisation visualization design infographic infromation grap
 
 If you need more guidance, feel free to ask me :)
 
-
-# Log
+## Log
 - 10.4.2020: [Contentonauten](https://www.contentonauten.de/) added
 - 10.4.2020: Spektrum Berlin removed
 - 15.5.2020: [Mila Frerichs](http://milafrerichs.de/) added
@@ -97,3 +96,4 @@ If you need more guidance, feel free to ask me :)
 - 29.5.2020: Sara Akhlaq added
 - 29.5.2020: Christopher Pietsch added
 - 29.5.2020: Tori Boeck added
+- 2.6.2020: Burak Korkmaz added
