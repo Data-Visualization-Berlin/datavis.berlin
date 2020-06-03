@@ -73,11 +73,8 @@ other = "Master"
 [labs]
 other = "Labs and research clusters"
 
-[more]
-other = "Find more programmes in"
-
 [article]
-other = "Andy Kirk’s »Data Visualisation Programmes and Qualifications« article"
+other = 'Find more programmes in Andy Kirk’s <a href="http://www.visualisingdata.com/2018/06/data-visualisation-programmes-qualifications/">Data Visualisation Programmes and Qualifications</a> article.'
 
 [translation1]
 other = "Many thanks to"

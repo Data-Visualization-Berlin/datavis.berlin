@@ -73,11 +73,8 @@ other = "Master"
 [labs]
 other = "Laboratori e gruppi di ricerca"
 
-[more]
-other = "Per scoprire altri indirizzi e corsi, leggi"
-
 [article]
-other = 'l’articolo di Andy Kirk »Data Visualisation Programmes and Qualifications«'
+other = 'Per scoprire altri indirizzi e corsi, leggi l’articolo di Andy Kirk <a href="http://www.visualisingdata.com/2018/06/data-visualisation-programmes-qualifications/">Data Visualisation Programmes and Qualifications</a>.'
 
 [translation1]
 other = "Grazie a"

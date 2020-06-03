@@ -27,7 +27,7 @@
       {{ partial "list.html" (dict "items" $.Site.Data "id" "meet" "layout" "columns") }}
       {{ partial "headline.html" (dict "id" "programmes" "label" (i18n "programmes")) }}
       {{ partial "list.html" (dict "items" $.Site.Data "id" "programmes" "layout" "wrap") }}
-      <small class="note">{{ i18n "more" }} <a href="http://www.visualisingdata.com/2018/06/data-visualisation-programmes-qualifications/">{{ i18n "article" }}</a>.</small>
+      <small class="note">{{ i18n "article" | safeHTML }}</small>
     </div>
   </main>
 

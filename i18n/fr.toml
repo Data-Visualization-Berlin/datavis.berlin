@@ -2,7 +2,7 @@
 other = "Datavisualisation professionnelle"
 
 [joboffers]
-other = "Offres d'emploi"
+other = "Offres d’emploi"
 
 [deadline]
 other = "échéance au"
@@ -11,7 +11,7 @@ other = "échéance au"
 other = "en tout temps"
 
 [nojobs]
-other = "Il n'existe actuellement aucun poste vacant."
+other = "Il n’existe actuellement aucun poste vacant."
 
 [contact]
 other = 'Avez-vous une offre d’emploi? <a href="mailto:jonas-at-datavis.berlin?subject=Job Offering&body=Title:%0DLink:%0DPlace:%0DStart:%0DDeadline:">Contactez-moi</a> ou faites une <a href="https://github.com/Data-Visualization-Berlin/Datavis-Berlin-Website">pull-request</a> vous-même.'
@@ -20,7 +20,7 @@ other = 'Avez-vous une offre d’emploi? <a href="mailto:jonas-at-datavis.berlin
 other = 'Si vous souhaitez obtenir des informations régulières, inscrivez-vous au <a href="{{ . }}">RSS feed</a>.'
 
 [information]
-other = "Design de l'information"
+other = "Design de l’information"
 
 [visualisation]
 other = "Datavisualisation"
@@ -65,7 +65,7 @@ other = "Rencontres"
 other = "Endroits où travailler / faire du hacking / créer / partager / établir des contacts / organiser"
 
 [programmes]
-other = "Cursus d'études connexes en Allemagne"
+other = "Cursus d’études connexes en Allemagne"
 
 [bachelor]
 other = "Bachelor"
@@ -76,11 +76,8 @@ other = "Master"
 [labs]
 other = "Laboratoires et centres de recherche"
 
-[more]
-other = "Découvrez plus de programmes"
-
 [article]
-other = "L'article »Data Visualisation Programmes and Qualifications« de Andy Kirk"
+other = 'Découvrez plus de programmes dans l’article <a href="http://www.visualisingdata.com/2018/06/data-visualisation-programmes-qualifications/">Data Visualisation Programmes and Qualifications</a> de Andy Kirk.'
 
 [translation1]
 other = "Un grand merci à"
