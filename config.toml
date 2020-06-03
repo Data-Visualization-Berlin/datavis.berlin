@@ -5,8 +5,8 @@ invisibleSections = ["jobs"]
   unsafe = true
 
 [params]
-  description = "An open list to the data visualisation scene in Berlin. All people, things and places that are related to visualisation, infographic, data art, data journalism, reasearch, and data tools are welcome!"
-  keywords = "data visualisation visualization design infographic infromation graphic data-driven journalism ddj interfacedesgin"
+  description = "An open list to the data visualisation scene in Berlin. All people, things and places that are related to visualisation, infographic, data art, data journalism, research, and data tools are welcome!"
+  keywords = "data visualisation visualization design infographic information graphic data-driven journalism ddj interface desgin"
   author = "Jonas Parnow"
   twitter = "zeto"
   telegram = "visber"
@@ -51,8 +51,8 @@ invisibleSections = ["jobs"]
   [languages.fr]
     baseURL = "https://fr.datavis.berlin"
     title = "Datavisualisation à Berlin"
-    description = "An open list to the data visualisation scene in Berlin. All people, things and places that are related to visualisation, infographic, data art, data journalism, reasearch, and data tools are welcome!"
-    keywords = "data visualisation visualization design infographic infromation graphic data-driven journalism ddj interfacedesgin"
+    description = "Une liste ouverte à propos de la scène Datavis à Berlin. Toutes les personnes, choses et endroits, qui sont reliés à la visualisation, à l'infographie, au data art, au journalisme de données, à la recherche et aux outils de données, sont les bienvenus !"
+    keywords = "data visualisation visualisation design infographie information graphisme journalisme de données ddj design d'interface"
     LanguageName = "Français"
     languageCode = "fr"
     weight = 2
