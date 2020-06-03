@@ -11,7 +11,7 @@ other = "con fecha límite"
 other = "Actualmente no hay vacantes de empleo aquí."
 
 [contact]
-other = '¿Tienes una oferta de trabajo? Contactame <a href="mailto:jonas-at-datavis.berlin?subject=Job Offering&body=Title:%0DLink:%0DPlace:%0DStart:%0DDeadline:"></a> o publica una<a href="https://github.com/Data-Visualization-Berlin/Datavis-Berlin-Website">pull request</a>.'
+other = '¿Tienes una oferta de trabajo? Contactame <a href="{{ .mail }}"></a> o publica una<a href="{{ .link }}">pull request</a>.'
 
 [rss]
 other = 'Si deseas obtener actualizaciones, suscríbete a <a href="{{ . }}">RSS feed</a>.'
@@ -74,7 +74,7 @@ other = "Master"
 other = "Labs y grupos de investigación"
 
 [article]
-other = 'Encuentra más programas en El atrículo de Andy Kirk <a href="http://www.visualisingdata.com/2018/06/data-visualisation-programmes-qualifications/">Data Visualisation Programmes and Qualifications</a>.'
+other = 'Encuentra más programas académicos en el atrículo de Andy Kirk <a href="{{ .link }}">{{ .title }}</a>.'
 
 [translation1]
 other = "Muchas gracias a"
@@ -96,3 +96,39 @@ other = "Imprint"
 
 [privacy]
 other = "Privacy"
+
+[January]
+other = "Enero"
+
+[February]
+other = "Febrero"
+
+[March]
+other = "Marzo"
+
+[April]
+other = "Abril"
+
+[May]
+other = "Mayo"
+
+[June]
+other = "Junio"
+
+[July]
+other = "Julio"
+
+[August]
+other = "Agosto"
+
+[September]
+other = "Septiembre"
+
+[October]
+other = "Octubre"
+
+[November]
+other = "Noviembre"
+
+[December]
+other = "Diciembre"
