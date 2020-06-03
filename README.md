@@ -93,7 +93,8 @@ If you need more guidance, feel free to ask me :)
 - 10.4.2020: Spektrum Berlin removed
 - 15.5.2020: [Mila Frerichs](http://milafrerichs.de/) added
 - 29.5.2020: French translation added
-- 29.5.2020: Sara Akhlaq added
-- 29.5.2020: Christopher Pietsch added
-- 29.5.2020: Tori Boeck added
-- 2.6.2020: Burak Korkmaz added
+- 29.5.2020: [Sara Akhlaq](https://twitter.com/alltheakhlaq/) added
+- 29.5.2020: Christopher Pietsch website added
+- 29.5.2020: [Tori Boeck](https://twitter.com/toridykes) added
+- 2.6.2020: [Burak Korkmaz](https://twitter.com/BKorkmaz_KD) added
+- 3.6.2020: [Arran Ridley](https://twitter.com/arranarranarran) added
