@@ -77,7 +77,7 @@ That would be super good :)
 
 The files that need to be translated are [content/_index.md](content/_index.md), [i18n/en.toml](i18n/en.toml) and parts of [config.toml](config.toml). All can be opend in a text editor.
 
-In the first TOML file, the part after `other =` is where the translation goes. The part above is the key, where the text is placed.
+In the first TOML file, the part after `other =` is where the translation goes. The part above is the key, where the text is placed. You don’t need to worry about that.
 In the Markdown file, the `title` and everything after the three dashes needs to be translated.
 In the config TOML file, these parts are relevant:
 ```
@@ -86,6 +86,7 @@ description = "An open list to the data visualisation scene in Berlin. All peopl
 keywords = "data visualisation visualization design infographic infromation graphic data-driven journalism ddj interfacedesgin"
 ```
 
+You don’t need to worry how to add the language. Just contact me and I’ll take the translated files from there.
 If you need more guidance, feel free to ask me :)
 
 ## Log
