@@ -28,6 +28,9 @@ other = "ڈیٹا آرٹ"
 [newsrooms]
 other = "خبریں"
 
+[research]
+other = "تحقیق"
+
 [tools]
 other = "اوزار"
 
@@ -83,7 +86,7 @@ other = "اور"
 other = "اس ویب سائٹ کے ترجمہ کے لۓ"
 
 [updated]
-other = "آکری تجدید"
+other = "آخری تجدید"
 
 [github]
 other = "گٹ ہب پر ذریعہ"
