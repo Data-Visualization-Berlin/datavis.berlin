@@ -13,6 +13,7 @@ invisibleSections = ["jobs"]
   source = "https://github.com/Data-Visualization-Berlin/Datavis-Berlin-Website"
   imprint = "https://jonasparnow.com/imprint"
   privacy = "https://jonasparnow.com/privacy"
+  direction = "ltr"
 
 [languages]
   [languages.en]
@@ -66,3 +67,13 @@ invisibleSections = ["jobs"]
     languageCode = "tr"
     weight = 2
     disableKinds = ["taxonomy", "taxonomyTerm", "jobs", "section", "tags"]
+  [languages.ur]
+    baseURL = "https://ur.datavis.berlin"
+    title = "Data visualisation Berlin"
+    description = "An open list to the data visualisation scene in Berlin. All people, things and places that are related to visualisation, infographic, data art, data journalism, research, and data tools are welcome!"
+    keywords = "data visualisation visualization design infographic information graphic data-driven journalism ddj interface desgin"
+    LanguageName = "اردو"
+    languageCode = "ur"
+    weight = 2
+    disableKinds = ["taxonomy", "taxonomyTerm", "jobs", "section", "tags"]
+    direction = "rtl"

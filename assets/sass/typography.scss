@@ -167,3 +167,21 @@ small, .page-footer span, .homepage-header nav * {
   display: inline-block;
   line-height: 1.4rem;
 }
+
+html[dir=rtl] {
+  h2 i {
+    right: -1.9rem;
+  }
+
+  h3 i {
+    right: -1.6rem;
+  }
+
+  ul li {
+    padding: 0.2em 1.6em 0.2em $spacing;
+
+    &:before {
+      right: 0;
+    }
+  }
+}
