@@ -1,0 +1,134 @@
+[professional]
+other = "Profesyonel Veri Görselleştirmesi"
+
+[joboffers]
+other = "İş İlanları"
+
+[deadline]
+other = "Son başvuru tarihi"
+
+[nojobs]
+other = "Uygun ilan şu an bulunmamaktadır."
+
+[contact]
+other = 'Vermek istediğin bir iş/proje ilanı mı var? <a href="{{ .mail }}">Benimle irtibata geçebilir </a> ya da ilanı kendin verebilirsin <a href="{{ .link }}">Pull Request</a>.'
+
+[rss]
+other = 'Eğer güncellemelerden haberdar olmak istersen, <a href="{{ . }}">RSS Feed</a> abone olabilirsin.'
+
+[information]
+other = "Information Design (Bilgi Tasarımı)"
+
+[visualisation]
+other = "Veri Görselleştirmesi"
+
+[art]
+other = "Veri Sanatı"
+
+[newsrooms]
+other = "Veri Gazeteceliği"
+
+[research]
+other = "Araştırma"
+
+[tools]
+other = "Yazılım"
+
+[freelancer]
+other = "Freelancer"
+
+[places]
+other = "Mekanlar"
+
+[universities]
+other = "Üniversiteler"
+
+[museums]
+other = "Müzeler"
+
+[conferences]
+other = "Konferanslar"
+
+[meet]
+other = "Veri görselleştirmesiyle ilgilenenlerle buluş"
+
+[people]
+other = "Berlin'de olan Veri Görselleştirme uzmanları"
+
+[meetups]
+other = "Etkinlikler"
+
+[hackspace]
+other = "Çalışmak / Hacklemek/ Paylaşmak / Tanışmak / Organize etmek için mekanlar"
+
+[programmes]
+other = "Almanya'da alakalı yüksek eğitim bölümleri"
+
+[bachelor]
+other = "Lisans derecesi"
+
+[master]
+other = "Yüksek lisans derecesi"
+
+[labs]
+other = "Laboratuvarlar ve araştırma merkezleri"
+
+[article]
+other = 'Andy Kirks’ün makalesi üzerinden başka yüksek öğrenim imkanları bul <a href="{{ .link }}">{{ .title }}</a>'
+
+[translation1]
+other = "Çok teşekkürler"
+
+[translation2]
+other = "ve"
+
+[translation3]
+other = "Bu sayfanın çevirisi için"
+
+[updated]
+other = "En son bu tarihte güncellenmiştir"
+
+[github]
+other = "Kaynak kodu Github sayfasındadır"
+
+[imprint]
+other = "Künye"
+
+[privacy]
+other = "Veri Politikamız"
+
+[January]
+other = "Ocak"
+
+[February]
+other = "Şubat"
+
+[March]
+other = "Mart"
+
+[April]
+other = "Nisan"
+
+[May]
+other = "Mayıs"
+
+[June]
+other = "Haziran"
+
+[July]
+other = "Temmuz"
+
+[August]
+other = "Ağustos"
+
+[September]
+other = "Eylül"
+
+[October]
+other = "Ekim"
+
+[November]
+other = "Kasım"
+
+[December]
+other = "Aralık"
