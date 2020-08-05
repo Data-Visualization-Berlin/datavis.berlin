@@ -6,7 +6,7 @@ invisibleSections = ["jobs"]
 
 [params]
   description = "An open list to the data visualisation scene in Berlin. All people, things and places that are related to visualisation, infographic, data art, data journalism, research, and data tools are welcome!"
-  keywords = "data visualisation visualization design infographic information graphic data-driven journalism ddj interface desgin"
+  keywords = "data visualisation visualisation design infographic information graphic data-driven journalism ddj interface design"
   author = "Jonas Parnow"
   twitter = "zeto"
   telegram = "visber"
@@ -33,16 +33,16 @@ invisibleSections = ["jobs"]
     disableKinds = ["taxonomy", "taxonomyTerm", "jobs", "section", "tags"]
   [languages.it]
     baseURL = "https://it.datavis.berlin"
-    title = "Data visualization Berlin"
+    title = "Data visualisation Berlin"
     description = "Una lista aperta dedicata alla scena berlinese della data visualisation. Tutto ciò che riguarda persone, cose e luoghi che riguardano la visualizzazione dati, infografica, giornalismo con i dati, ricerca e data tools è benvenuto!"
-    keywords = "data visualization visualizzatione dati design infografiche information design grafica con i dati giornalismo con i dati interfacedesign data-driven journalism"
+    keywords = "data visualisation visualizzatione dati design infografiche information design grafica con i dati giornalismo con i dati interfacedesign data-driven journalism"
     LanguageName = "Italiano"
     languageCode = "it"
     weight = 2
     disableKinds = ["taxonomy", "taxonomyTerm", "jobs", "section", "tags"]
   [languages.es]
     baseURL = "https://es.datavis.berlin"
-    title = "Data visualization Berlin"
+    title = "Data visualisation Berlin"
     description = "Una lista abierta de la escena de visualización de datos en Berlín. Toda las personas, cosas y lugares relacionados con la visualización, la infográfica, el data art, el periodismo de datos, la investigación y herramientas útiles son bienvenidos!"
     keywords = "diseño de visualización de datos infografía información gráfica periodismo de datos ddj interfacedesign"
     LanguageName = "Español"
@@ -62,7 +62,7 @@ invisibleSections = ["jobs"]
     baseURL = "https://tr.datavis.berlin"
     title = "Data visualisation Berlin"
     description = "An open list to the data visualisation scene in Berlin. All people, things and places that are related to visualisation, infographic, data art, data journalism, research, and data tools are welcome!"
-    keywords = "data visualisation visualization design infographic information graphic data-driven journalism ddj interface desgin"
+    keywords = "data visualisation visualisation design infographic information graphic data-driven journalism ddj interface design"
     LanguageName = "Türkçe"
     languageCode = "tr"
     weight = 2
@@ -71,7 +71,7 @@ invisibleSections = ["jobs"]
     baseURL = "https://ur.datavis.berlin"
     title = "Data visualisation Berlin"
     description = "An open list to the data visualisation scene in Berlin. All people, things and places that are related to visualisation, infographic, data art, data journalism, research, and data tools are welcome!"
-    keywords = "data visualisation visualization design infographic information graphic data-driven journalism ddj interface desgin"
+    keywords = "data visualisation visualisation design infographic information graphic data-driven journalism ddj interface design"
     LanguageName = "اردو"
     languageCode = "ur"
     weight = 2
