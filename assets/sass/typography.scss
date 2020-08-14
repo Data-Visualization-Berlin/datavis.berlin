@@ -168,7 +168,13 @@ small, .page-footer span, .homepage-header nav * {
   line-height: 1.4rem;
 }
 
+// Layout for right to left font
 html[dir=rtl] {
+  .logo i {
+    left: unset;
+    right: -3.2rem;
+  }
+
   h2 i {
     right: -1.9rem;
   }
@@ -181,6 +187,13 @@ html[dir=rtl] {
     padding: 0.2em 1.6em 0.2em $spacing;
 
     &:before {
+      display: none;
+    }
+
+    &:after {
+      content: "—";
+      color: $color-accent;
+      position: absolute;
       right: 0;
     }
   }
