@@ -61,8 +61,8 @@ invisibleSections = ["jobs"]
   [languages.tr]
     baseURL = "https://tr.datavis.berlin"
     title = "Data visualisation Berlin"
-    description = "An open list to the data visualisation scene in Berlin. All people, things and places that are related to visualisation, infographic, data art, data journalism, research, and data tools are welcome!"
-    keywords = "data visualisation visualisation design infographic information graphic data-driven journalism ddj interface design"
+    description = "eri Görselleştirmesi alanında Berlin’de olup bitene dair açık bir liste: Görselleştirmeyle, infografikle, veri bazlı sanatla, veri gazeteceliğiyle, araştırmayla ve yöntemlerle alâkalı herkese ve herşeye açıktır."
+    keywords = "veri görselleştirmesi örselleştirme tasarım infografik bilgi tasarımı veri gazeteceliği ddj arayüz tasarımı"
     LanguageName = "Türkçe"
     languageCode = "tr"
     weight = 2
