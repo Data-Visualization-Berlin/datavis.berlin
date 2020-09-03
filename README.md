@@ -99,3 +99,4 @@ If you need more guidance, feel free to ask me :)
 - 29.5.2020: [Tori Boeck](https://twitter.com/toridykes) added
 - 2.6.2020: [Burak Korkmaz](https://twitter.com/BKorkmaz_KD) added
 - 3.6.2020: [Arran Ridley](https://twitter.com/arranarranarran) added
+- 3.9.2020: Hochschule Hamm-Lippstadt added
