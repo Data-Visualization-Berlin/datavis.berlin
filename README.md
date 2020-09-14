@@ -101,3 +101,4 @@ If you need more guidance, feel free to ask me :)
 - 3.6.2020: [Arran Ridley](https://twitter.com/arranarranarran) added
 - 3.9.2020: Hochschule Hamm-Lippstadt added
 - 3.9.2020: Weizenbaum Institut added
+- 14.9.2020: [Cédric Scherer,https://cedricscherer.netlify.app/] added
