@@ -2,7 +2,7 @@
 # Title to be displayed with a short description (max. 110 characters)
 title: "Information Designer (m/w) 100% in Berlin"
 date: 2020-09-11T12:17:41+02:00
-expirydate: 2020-11-11
+expirydate: 2020-10-24
 draft: false
 sitemap_exclude: true
 # Name of the company (with department if you want) (e.g. "Wikimedia Foundation, Technology")

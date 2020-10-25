@@ -2,7 +2,7 @@
 # Title to be displayed with a short description (max. 110 characters)
 title: "Teamleiter*in Analytics und User Experience (UX)"
 date: 2020-09-09T11:19:13+02:00
-expirydate: 2020-11-09
+expirydate: 2020-10-25
 draft: false
 sitemap_exclude: true
 # Name of the company (with department if you want) (e.g. "Wikimedia Foundation, Technology")
