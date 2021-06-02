@@ -93,13 +93,13 @@ If you need more guidance, feel free to ask me :)
 - 15.5.2020: [Mila Frerichs](http://milafrerichs.de/) added
 - 29.5.2020: French translation added
 - 29.5.2020: [Sara Akhlaq](https://twitter.com/alltheakhlaq/) added
-- 29.5.2020: Christopher Pietsch website added
+- 29.5.2020: [Christopher Pietsch](https://chrispie.com/) added
 - 29.5.2020: [Tori Boeck](https://twitter.com/toridykes) added
 - 2.6.2020: [Burak Korkmaz](https://twitter.com/BKorkmaz_KD) added
 - 3.6.2020: [Arran Ridley](https://twitter.com/arranarranarran) added
 - 3.9.2020: [Hochschule Hamm-Lippstadt](https://www.hshl.de/studieren/studiengaenge/bachelorstudiengaenge/computervisualistik-und-design/) added
 - 3.9.2020: [Weizenbaum Institut](https://www.weizenbaum-institut.de/) added
-- 4.9.2021: [Alsino Skowronnek](https://alsino.io/) added
+- 4.9.2020: [Alsino Skowronnek](https://alsino.io/) added
 - 14.9.2020: [Cédric Scherer](https://cedricscherer.netlify.app/) added
 - 28.5.2021: [Creative Computing Master of Arts](http://www.btk-fh.de/en/program/creative-computing/) added
 - 31.5.2021: [Kira Schacht](https://twitter.com/daten_drang) added
