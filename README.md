@@ -97,6 +97,18 @@ If you need more guidance, feel free to ask me :)
 - 29.5.2020: [Tori Boeck](https://twitter.com/toridykes) added
 - 2.6.2020: [Burak Korkmaz](https://twitter.com/BKorkmaz_KD) added
 - 3.6.2020: [Arran Ridley](https://twitter.com/arranarranarran) added
-- 3.9.2020: Hochschule Hamm-Lippstadt added
-- 3.9.2020: Weizenbaum Institut added
-- 14.9.2020: [Cédric Scherer,https://cedricscherer.netlify.app/] added
+- 3.9.2020: [Hochschule Hamm-Lippstadt](https://www.hshl.de/studieren/studiengaenge/bachelorstudiengaenge/computervisualistik-und-design/) added
+- 3.9.2020: [Weizenbaum Institut](https://www.weizenbaum-institut.de/) added
+- 4.9.2021: [Alsino Skowronnek](https://alsino.io/) added
+- 14.9.2020: [Cédric Scherer](https://cedricscherer.netlify.app/) added
+- 28.5.2021: [Creative Computing Master of Arts](http://www.btk-fh.de/en/program/creative-computing/) added
+- 31.5.2021: [Kira Schacht](https://twitter.com/daten_drang) added
+- 31.5.2021: [Ida Flik](https://idaflik.github.io/) added
+- 31.5.2021: [Haluka Maier-Borst](https://twitter.com/HalukaMB) added
+- 31.5.2021: [Gianna Grün](https://twitter.com/giannagruen) added
+- 31.5.2021: [Christian Endt](https://twitter.com/c_endt) added
+- 31.5.2021: [Deutsche Welle Data](https://www.dw.com/data) added
+- 31.5.2021: [Flavio Gortana](https://flavio.is/) added
+- 1.6.2021: [Miska Knapek](http://miska.org/) added
+- 2.6.2021: [UDK Infoklasse](http://infoklasse.de/) added
+- 2.6.2021: [Journocode](https://journocode.com/) added
