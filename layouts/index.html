@@ -18,7 +18,7 @@
       <section aria-labelledby="professional">
         {{ partial "subheadline.html" (dict "id" "jobs" "title" (i18n "joboffers")) }}
         {{ partial "jobs.html" (dict "context" . "id" "jobs") }}
-        <small class="note">{{ i18n "contact" (dict "mail" "mailto:jonas-at-datavis.berlin?subject=Job Offering&body=Title:%0DLink:%0DPlace:%0DStart:%0DDeadline:" "link" "https://github.com/Data-Visualization-Berlin/Datavis-Berlin-Website") | safeHTML }} {{ (i18n "rss" ("index.xml" | absURL)) | safeHTML }}</small>
+        <small class="note">{{ i18n "contact" (dict "mail" "mailto:jonas-at-datavis.berlin?subject=Job Offering&body=Title:%0DLink:%0DPlace:" "link" "https://github.com/Data-Visualization-Berlin/Datavis-Berlin-Website") | safeHTML }} {{ (i18n "rss" ("index.xml" | absURL)) | safeHTML }}</small>
       </section>
       {{ partial "list.html" (dict "items" $.Site.Data "id" "professional" "layout" "wrap") }}
       {{ partial "headline.html" (dict "id" "places" "label" (i18n "places")) }}
