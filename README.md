@@ -112,3 +112,4 @@ If you need more guidance, feel free to ask me :)
 - 1.6.2021: [Miska Knapek](http://miska.org/) added
 - 2.6.2021: [UDK Infoklasse](http://infoklasse.de/) added
 - 2.6.2021: [Journocode](https://journocode.com/) added
+- 4.6.2021: [Jan Schwochow](https://www.schwochow.de/) added
