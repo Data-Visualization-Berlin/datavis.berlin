@@ -113,3 +113,5 @@ If you need more guidance, feel free to ask me :)
 - 2.6.2021: [UDK Infoklasse](http://infoklasse.de/) added
 - 2.6.2021: [Journocode](https://journocode.com/) added
 - 4.6.2021: [Jan Schwochow](https://www.schwochow.de/) added
+- 22.6.2021: [UdK und TU Berlin – Design & Computation](https://www.design-computation.berlin/) added
+- 25.6.2021: [Art Laboratory Berlin](http://www.mfk-berlin.de/) added
