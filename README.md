@@ -116,3 +116,4 @@ If you need more guidance, feel free to ask me :)
 - 22.6.2021: [UdK und TU Berlin – Design & Computation](https://www.design-computation.berlin/) added
 - 25.6.2021: [Art Laboratory Berlin](http://www.mfk-berlin.de/) added
 - 2.7.2021: [Anne Loetz](https://twitter.com/anenemone) added
+- 2.7.2021: [Nicolas Bourquin](https://twitter.com/NicBourquin), [Sven Ehmann](https://twitter.com/se_etc) added
