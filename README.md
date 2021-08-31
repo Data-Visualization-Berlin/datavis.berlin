@@ -118,3 +118,4 @@ If you need more guidance, feel free to ask me :)
 - 2.7.2021: [Anne Loetz](https://twitter.com/anenemone) added
 - 2.7.2021: [Nicolas Bourquin](https://twitter.com/NicBourquin), [Sven Ehmann](https://twitter.com/se_etc) added
 - 21.7.2021: VisualDriven → [Jokertronic](https://jokertronic.de/)
+- 31.8.2021: [Vanessa Gonschorek](https://vg-design.eu/) added
