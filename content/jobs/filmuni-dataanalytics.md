@@ -1,6 +1,6 @@
 ---
 # Title to be displayed with a short description (max. 110 characters)
-title: "Research-led practice professorship "Data Analytics and Audiovisual Media" (tenure track, ‘wissenschaftlich-künstlerische W2’)"
+title: "Research-led practice professorship \"Data Analytics and Audiovisual Media\" (tenure track, ‘wissenschaftlich-künstlerische W2’)"
 # Date you added this job
 date: 2021-08-30T09:30:00+02:00
 # Date when job offer should disappear from the website
