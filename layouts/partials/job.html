@@ -1,6 +1,8 @@
 <li class="item-job" itemscope itemtype="https://schema.org/JobPosting">
   <a class="job-link" href="{{ .Params.link }}" rel="noopener noreferrer" itemprop="url">
+    <meta itemprop="datePosted" content="{{ .Date.Format "2006-01-02" }}" />
+    <meta itemprop="validThrough" content="{{ .Params.expirydate.Format "2006-01-02" }}" />
     <strong class="job-title" itemprop="title">{{ .Title }}</strong>
-    <span class="job-place" itemprop="jobLocation">{{ .Params.place }}</span>
+    <span class="job-place" itemprop="hiringOrganization">{{ .Params.place }}</span>
   </a>
 </li>
