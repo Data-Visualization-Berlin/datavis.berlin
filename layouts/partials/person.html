@@ -1,0 +1,7 @@
+<li itemscope itemtype="https://schema.org/Person">
+{{- if reflect.IsSlice . -}}
+  <a href="{{ index . 1 }}" rel="noopener noreferrer" itemprop="url"><span itemprop="name">{{- index . 0 -}}</span></a>
+{{- else -}}
+  <span itemprop="name">{{- . -}}</span>
+{{- end -}}
+</li>

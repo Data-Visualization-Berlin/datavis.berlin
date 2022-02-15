@@ -1,4 +1,9 @@
 <ul aria-labelledby="{{ .id }}">
+{{ if eq .id "people" }}
+{{ range .context }}
+{{- partial "person.html" . -}}
+{{ end }}
+{{- else -}}
 {{ range .context }}
   <li>
     {{- if reflect.IsSlice (index . 0) -}}
@@ -12,5 +17,6 @@
       {{- partial "element.html" . -}}
     {{- end -}}
   </li>
+{{ end }}
 {{ end }}
 </ul>
