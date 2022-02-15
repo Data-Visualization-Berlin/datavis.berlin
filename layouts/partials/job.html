@@ -1,6 +1,6 @@
-<li class="item-job">
-  <a class="job-link" href="{{ .Params.link }}" rel="noopener noreferrer">
-    <strong class="job-title">{{ .Title }}</strong>
-    <span class="job-place">{{ .Params.place }}</span>
+<li class="item-job" itemscope itemtype="https://schema.org/JobPosting">
+  <a class="job-link" href="{{ .Params.link }}" rel="noopener noreferrer" itemprop="url">
+    <strong class="job-title" itemprop="title">{{ .Title }}</strong>
+    <span class="job-place" itemprop="jobLocation">{{ .Params.place }}</span>
   </a>
 </li>
