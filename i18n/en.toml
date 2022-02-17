@@ -14,7 +14,7 @@ other = "There are currently no job vacancies here."
 other = 'Do you have a job offer? Contact <a href="{{ .mail }}">me</a> or make a <a href="{{ .link }}">pull request</a> yourself.'
 
 [rss]
-other = 'If you want to get updates, subscribe to the <a href="{{ . }}">RSS feed</a>.'
+other = 'If you want to get updates, subscribe to the <a href="{{ . }}">RSS feed</a>. Find more job listings <a href="https://jobs.datavisualizationsociety.org/">here</a>.'
 
 [information]
 other = "Information design"
