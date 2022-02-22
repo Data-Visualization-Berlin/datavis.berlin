@@ -2,7 +2,7 @@
 # Title to be displayed with a short description (max. 110 characters)
 title: "Designer:in für Visual Storytelling, Dataviz und Interface Design (m/w/d)"
 date: 2022-02-22T14:21:36+01:00
-expirydate: 2021-03-22
+expirydate: 2022-03-22
 draft: false
 sitemap_exclude: true
 # Name of the company (with department if you want) (e.g. "Wikimedia Foundation, Technology")
