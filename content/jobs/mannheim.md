@@ -2,7 +2,7 @@
 # Title to be displayed with a short description (max. 110 characters)
 title: "Wissenschaftliche*r Mitarbeiter*in (w/m/d)"
 date: 2022-02-11T16:19:47+01:00
-expirydate: 2022-03-11
+expirydate: 2022-03-02
 draft: false
 sitemap_exclude: true
 # Name of the company (with department if you want) (e.g. "Wikimedia Foundation, Technology")
