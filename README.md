@@ -121,3 +121,4 @@ If you need more guidance, feel free to ask me :)
 - 31.8.2021: [Vanessa Gonschorek](https://vg-design.eu/) added
 - 30.11.2021: [Sabine Devins](https://sabinedevins.com/) added
 - 9.2.22: [Luc Guillemot](https://twitter.com/lucguillemot) added
+- 22.3.22: [David Meidinger](https://twitter.com/_davidmeidinger) and [Tamara Flemisch](https://twitter.com/tamaraflemisch) added
