@@ -11,7 +11,7 @@
       {{ range first 1 . }}
         {{ partial "element.html" . }}
       {{ end }}
-      ({{- range $index, $element := after 1 . -}}{{ cond (gt $index 0) ", " "" }}{{- partial "element.html" $element -}}{{- end -}})
+      ({{- range $index, $element := after 1 . -}}{{- cond (gt $index 0) ", " "" -}}{{- partial "element.html" $element -}}{{- end -}})
     {{- else -}}
       {{/* Single links */}}
       {{- partial "element.html" . -}}
