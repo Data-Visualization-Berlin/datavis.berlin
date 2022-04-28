@@ -120,8 +120,8 @@ If you need more guidance, feel free to ask me :)
 - 21.7.2021: VisualDriven → [Jokertronic](https://jokertronic.de/)
 - 31.8.2021: [Vanessa Gonschorek](https://vg-design.eu/) added
 - 30.11.2021: [Sabine Devins](https://sabinedevins.com/) added
-- 9.2.22: [Luc Guillemot](https://twitter.com/lucguillemot) added
-- 22.3.22: [David Meidinger](https://twitter.com/_davidmeidinger) and [Tamara Flemisch](https://twitter.com/tamaraflemisch) added
-- 25.3.22: [Ole Häntzschel](http://www.olehaentzschel.com/) added
-- 6.4.22: [Field 33](https://field33.com/) added
-- 28.4.22: [Giacomo Nanni](https://twitter.com/sinanatra)
+- 9.2.2022: [Luc Guillemot](https://twitter.com/lucguillemot) added
+- 22.3.2022: [David Meidinger](https://twitter.com/_davidmeidinger) and [Tamara Flemisch](https://twitter.com/tamaraflemisch) added
+- 25.3.2022: [Ole Häntzschel](http://www.olehaentzschel.com/) added
+- 6.4.2022: [Field 33](https://field33.com/) added
+- 28.4.2022: [Giacomo Nanni](https://twitter.com/sinanatra) added
