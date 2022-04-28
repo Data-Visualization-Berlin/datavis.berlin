@@ -124,3 +124,4 @@ If you need more guidance, feel free to ask me :)
 - 22.3.22: [David Meidinger](https://twitter.com/_davidmeidinger) and [Tamara Flemisch](https://twitter.com/tamaraflemisch) added
 - 25.3.22: [Ole Häntzschel](http://www.olehaentzschel.com/) added
 - 6.4.22: [Field 33](https://field33.com/) added
+- 28.4.22: [Giacomo Nanni](https://twitter.com/sinanatra)
