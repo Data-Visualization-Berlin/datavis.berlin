@@ -125,3 +125,4 @@ If you need more guidance, feel free to ask me :)
 - 25.3.2022: [Ole Häntzschel](http://www.olehaentzschel.com/) added
 - 6.4.2022: [Field 33](https://field33.com/) added
 - 28.4.2022: [Giacomo Nanni](https://twitter.com/sinanatra) added
+- 30.4.2022: [Ricardo Saavedra](https://twitter.com/ricardosaavedra) added
