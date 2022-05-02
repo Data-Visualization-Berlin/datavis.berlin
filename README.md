@@ -126,3 +126,6 @@ If you need more guidance, feel free to ask me :)
 - 6.4.2022: [Field 33](https://field33.com/) added
 - 28.4.2022: [Giacomo Nanni](https://twitter.com/sinanatra) added
 - 30.4.2022: [Ricardo Saavedra](https://twitter.com/ricardosaavedra) added
+- 2.5.2022: [Charlotte Eckstein](https://twitter.com/charlotte_ecktn) added
+- 2.5.2022: [Simon Haas](https://twitter.com/simondhaas) added
+- 2.5.2022: [NZZ Visuals Berlin](https://www.nzz.ch/visuals) added
