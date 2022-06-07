@@ -8,7 +8,7 @@ let countLinks = 0;
 const URL = 'https://datavis.berlin';
 
 const checker = new HtmlUrlChecker({
-  excludedKeywords: ['//t.me/', '//linkedin.com/']
+  excludedKeywords: ['//t.me/', '//linkedin.com/', '//xing.com/', '//twitter.com/']
 }, {
 	error: (error) => {
   	console.log('error', { error })
