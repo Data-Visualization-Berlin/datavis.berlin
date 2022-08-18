@@ -5,7 +5,7 @@
     "build": "ncc build blc.js -o bin -m"
   },
   "dependencies": {
-    "@actions/core": "^1.6.0",
+    "@actions/core": "^1.9.1",
     "broken-link-checker": "^0.7.8"
   }
 }
