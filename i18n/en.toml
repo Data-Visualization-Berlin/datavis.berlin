@@ -11,7 +11,7 @@ other = "deadline on"
 other = "There are currently no job vacancies here."
 
 [contact]
-other = 'Do you have a job offer? Contact <a href="{{ .mail }}">me</a> or make a <a href="{{ .link }}">pull request</a> yourself.'
+other = 'Do you have a job offer? Contact via <a href="{{ .mail }}">mail</a> or submit this <a href="https://forms.gle/yS1n7C7o7GKXF7aDA">form</a>.'
 
 [rss]
 other = 'If you want to get updates, subscribe to the <a href="{{ . }}">RSS feed</a>. Find more job listings <a href="https://jobs.datavisualizationsociety.org/">here</a>.'

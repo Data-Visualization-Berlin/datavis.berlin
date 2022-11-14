@@ -11,7 +11,7 @@ other = "Bewerbungsfrist am"
 other = "Momemtan keine Jobangebote vorhanden"
 
 [contact]
-other = 'Hast du ein Jobangebot? Kontaktiere <a href="{{ .mail }}">mich</a> oder mach selbst einen <a href="{{ .link }}">Pull Request</a>.'
+other = 'Hast du ein Jobangebot? Kontaktiere mich per <a href="{{ .mail }}">mail</a> oder füll dieses <a href="https://forms.gle/yS1n7C7o7GKXF7aDA">Formular</a> aus.'
 
 [rss]
 other = 'Wenn du Updates bekommen möchtest, kannst du den <a href="{{ . }}">RSS Feed</a> abonnieren. Finde mehr Jobangebote <a href="https://jobs.datavisualizationsociety.org/">hier</a>.'

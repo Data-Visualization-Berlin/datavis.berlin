@@ -11,7 +11,7 @@ other = "con fecha límite"
 other = "Actualmente no hay vacantes de empleo aquí."
 
 [contact]
-other = '¿Tienes una oferta de trabajo? Contactame <a href="{{ .mail }}"></a> o publica una<a href="{{ .link }}">pull request</a>.'
+other = '¿Tienes una oferta de trabajo? <a href="{{ .mail }}">Contactame</a> o publica una<a href="{{ .link }}">pull request</a>.'
 
 [rss]
 other = 'Si deseas obtener actualizaciones, suscríbete a <a href="{{ . }}">RSS feed</a>.'
