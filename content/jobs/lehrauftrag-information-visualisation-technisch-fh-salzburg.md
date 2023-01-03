@@ -5,5 +5,6 @@ expirydate: 2023-03-03
 draft: false
 sitemap_exclude: true
 place: "FH Salzburg"
+start: 
 link: "https://karriere.fh-salzburg.ac.at/Lehrauftrag-Information-Visualisation-technisch-de-j843.html"
 ---
