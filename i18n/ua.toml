@@ -1,0 +1,134 @@
+[professional]
+other = "Професійна візуалізація даних"
+
+[joboffers]
+other = "Вакансії"
+
+[deadline]
+other = "дедлайни"
+
+[nojobs]
+other = "Наразі вакансій немає."
+
+[contact]
+other = "Ви можете запропонувати роботу? Напишіть електронний лист або заповніть форму."
+
+[rss]
+other = "Якщо ви хочете отримувати оновлення, підпишіться на RSS. Більше вакансій тут."
+
+[information]
+other = "Інформаційний дизайн"
+
+[visualisation]
+other = "Візуалізація даних"
+
+[art]
+other = "Мистецтво даних"
+
+[newsrooms]
+other = "Ньюзруми"
+
+[research]
+other = "Дослідження"
+
+[tools]
+other = "Інструменти"
+
+[freelancer]
+other = "Фрілансер"
+
+[places]
+other = "Місця"
+
+[universities]
+other = "Університети"
+
+[museums]
+other = "Музеґ / Галереї"
+
+[conferences]
+other = "Конференції"
+
+[meet]
+other = "Зустрічайте інших дата-людей"
+
+[people]
+other = "Візуалізатори даних у Берліні"
+
+[meetups]
+other = "Зустрічі"
+
+[hackspace]
+other = "Місця для роботи / хакінгу / створення / обміну / зв'язку / організації"
+
+[programmes]
+other = "Релевантні навчальні програми в Німеччині"
+
+[bachelor]
+other = "Бакалаврат"
+
+[master]
+other = "Магістерська"
+
+[labs]
+other = "Лаби та дослідницькі кластери"
+
+[article]
+other = "Більге програм в статті Енді Кірка {{ .title }}."
+
+[translation1]
+other = "Велика подяка"
+
+[translation2]
+other = "і"
+
+[translation3]
+other = "для перекладу цієї сторінки."
+
+[updated]
+other = "Останнє оновлення"
+
+[github]
+other = "Джерело на Github"
+
+[imprint]
+other = "Імпринт"
+
+[privacy]
+other = "Приватність"
+
+[January]
+other = "January"
+
+[February]
+other = "Лютий"
+
+[March]
+other = "Березень"
+
+[April]
+other = "Квітень"
+
+[May]
+other = "Травень"
+
+[June]
+other = "Червень"
+
+[July]
+other = "Липень"
+
+[August]
+other = "Серпень"
+
+[September]
+other = "Вересень"
+
+[October]
+other = "Жовтень"
+
+[November]
+other = "Листопад"
+
+[December]
+other = "Грудень"

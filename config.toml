@@ -77,3 +77,13 @@ invisibleSections = ["jobs"]
     weight = 2
     disableKinds = ["taxonomy", "taxonomyTerm", "jobs", "section", "tags"]
     direction = "rtl"
+  [languages.ua]
+    baseURL = "https://ua.datavis.berlin"
+    title = "Data visualisation Berlin"
+    description = "An open list to the data visualisation scene in Berlin. All people, things and places that are related to visualisation, infographic, data art, data journalism, research, and data tools are welcome!"
+    keywords = "data visualisation visualisation design infographic information graphic data-driven journalism ddj interface design"
+    LanguageName = "Українська"
+    languageCode = "ua"
+    weight = 2
+    disableKinds = ["taxonomy", "taxonomyTerm", "jobs", "section", "tags"]
+
