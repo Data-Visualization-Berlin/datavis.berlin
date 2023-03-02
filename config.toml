@@ -33,7 +33,7 @@ invisibleSections = ["jobs"]
     disableKinds = ["taxonomy", "taxonomyTerm", "jobs", "section", "tags"]
   [languages.it]
     baseURL = "https://it.datavis.berlin"
-    title = "Data visualisation Berlin"
+    title = "Data Visualisation Berlin"
     description = "Una lista aperta dedicata alla scena berlinese della data visualisation. Tutto ciò che riguarda persone, cose e luoghi che riguardano la visualizzazione dati, infografica, giornalismo con i dati, ricerca e data tools è benvenuto!"
     keywords = "data visualisation visualizzatione dati design infografiche information design grafica con i dati giornalismo con i dati interfacedesign data-driven journalism"
     LanguageName = "Italiano"
@@ -42,7 +42,7 @@ invisibleSections = ["jobs"]
     disableKinds = ["taxonomy", "taxonomyTerm", "jobs", "section", "tags"]
   [languages.es]
     baseURL = "https://es.datavis.berlin"
-    title = "Data visualisation Berlin"
+    title = "Data Visualisation Berlin"
     description = "Una lista abierta de la escena de visualización de datos en Berlín. Toda las personas, cosas y lugares relacionados con la visualización, la infográfica, el data art, el periodismo de datos, la investigación y herramientas útiles son bienvenidos!"
     keywords = "diseño de visualización de datos infografía información gráfica periodismo de datos ddj interfacedesign"
     LanguageName = "Español"
@@ -60,7 +60,7 @@ invisibleSections = ["jobs"]
     disableKinds = ["taxonomy", "taxonomyTerm", "jobs", "section", "tags"]
   [languages.tr]
     baseURL = "https://tr.datavis.berlin"
-    title = "Data visualisation Berlin"
+    title = "Data Visualisation Berlin"
     description = "eri Görselleştirmesi alanında Berlin’de olup bitene dair açık bir liste: Görselleştirmeyle, infografikle, veri bazlı sanatla, veri gazeteceliğiyle, araştırmayla ve yöntemlerle alâkalı herkese ve herşeye açıktır."
     keywords = "veri görselleştirmesi örselleştirme tasarım infografik bilgi tasarımı veri gazeteceliği ddj arayüz tasarımı"
     LanguageName = "Türkçe"
@@ -69,7 +69,7 @@ invisibleSections = ["jobs"]
     disableKinds = ["taxonomy", "taxonomyTerm", "jobs", "section", "tags"]
   [languages.ur]
     baseURL = "https://ur.datavis.berlin"
-    title = "Data visualisation Berlin"
+    title = "Data Visualisation Berlin"
     description = "An open list to the data visualisation scene in Berlin. All people, things and places that are related to visualisation, infographic, data art, data journalism, research, and data tools are welcome!"
     keywords = "data visualisation visualisation design infographic information graphic data-driven journalism ddj interface design"
     LanguageName = "اردو"
@@ -79,7 +79,7 @@ invisibleSections = ["jobs"]
     direction = "rtl"
   [languages.ua]
     baseURL = "https://ua.datavis.berlin"
-    title = "Data visualisation Berlin"
+    title = "Data Visualisation Berlin"
     description = "An open list to the data visualisation scene in Berlin. All people, things and places that are related to visualisation, infographic, data art, data journalism, research, and data tools are welcome!"
     keywords = "data visualisation visualisation design infographic information graphic data-driven journalism ddj interface design"
     LanguageName = "Українська"
