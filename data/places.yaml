@@ -1,32 +1,41 @@
 - universities:
-  -
-    - [Alexander von Humboldt Institut für Internet und Gesellschaft,http://www.hiig.de/]
-    - [Digitaler Salon,http://www.hiig.de/digitaler-salon/]
-  - [Exzellenzcluster »Bild Wissen Gestaltung. Ein interdisziplinäres Labor«,http://www.kunstgeschichte.hu-berlin.de/2012/07/exzellenzcluster-bild-wissen-gestaltung/]
-  -
-    - [FH Potsdam,https://www.fh-potsdam.de/studium-weiterbildung/fachbereiche/fachbereich-design]
-    - [Urban Complexity Lab,https://uclab.fh-potsdam.de/]
-    - [Interaction Design Lab,https://idl.fh-potsdam.de/de/]
-    - [Marian Dörk,https://twitter.com/nrchtct]
-    - [Boris Müller,https://twitter.com/borism]
-    - [information+visualization,https://infovis.fh-potsdam.de/]
-  -
-    - [Universität der Künste,https://www.udk-berlin.de/]
-    - [Digitale Klasse,http://digital.udk-berlin.de/]
-    - [Design Research Lab,https://www.drlab.org/]
-    - [Gesche Joost,https://twitter.com/GescheJoost]
-  - [Weizenbaum Institut,https://www.weizenbaum-institut.de/]
+    - - [
+          Alexander von Humboldt Institut für Internet und Gesellschaft,
+          http://www.hiig.de/,
+        ]
+      - [Digitaler Salon, http://www.hiig.de/digitaler-salon/]
+    - [
+        Exzellenzcluster »Bild Wissen Gestaltung. Ein interdisziplinäres Labor«,
+        http://www.kunstgeschichte.hu-berlin.de/2012/07/exzellenzcluster-bild-wissen-gestaltung/,
+      ]
+    - - [
+          FH Potsdam,
+          https://www.fh-potsdam.de/studium-weiterbildung/fachbereiche/fachbereich-design,
+        ]
+      - [Urban Complexity Lab, https://uclab.fh-potsdam.de/]
+      - [Interaction Design Lab, https://idl.fh-potsdam.de/de/]
+      - [Marian Dörk, https://twitter.com/nrchtct]
+      - [Boris Müller, https://twitter.com/borism]
+      - [information+visualization, https://infovis.fh-potsdam.de/]
+    - - [Universität der Künste, https://www.udk-berlin.de/]
+      - [Digitale Klasse, http://digital.udk-berlin.de/]
+      - [Design Research Lab, https://www.drlab.org/]
+      - [Gesche Joost, https://twitter.com/GescheJoost]
+    - [Weizenbaum Institut, https://www.weizenbaum-institut.de/]
 - museums:
-  - [Art Laboratory Berlin,https://artlaboratory-berlin.org/]
-  - [Buchstaben Museum,http://www.buchstabenmuseum.de/]
-  - [DAM gallery,https://www.dam-gallery.de/]
-  - [Leap,https://www.leap.de/]
-  - [Museum für Kommunikation,http://www.mfk-berlin.de/]
+    - [Art Laboratory Berlin, https://artlaboratory-berlin.org/]
+    - [Buchstaben Museum, http://www.buchstabenmuseum.de/]
+    - [DAM gallery, https://www.dam-gallery.de/]
+    - [Leap, https://www.leap.de/]
+    - [Museum für Kommunikation, http://www.mfk-berlin.de/]
 - conferences:
-  - [Data Natives,https://datanatives.io]
-  - [IEEE Vis,http://ieeevis.org]
-  - [Information+,http://informationplusconference.com/]
-  - [Retune,https://retunefestival.de/]
-  - [SciCAR,https://netzwerkrecherche.org/termine/konferenzen/fachkonferenzen/scicar/]
-  - [Transmediale,https://transmediale.de/]
-  - [UIST,http://uist.acm.org/]
+    - [Data Natives, https://datanatives.io]
+    - [IEEE Vis, http://ieeevis.org]
+    - [Information+, http://informationplusconference.com/]
+    - [Retune, https://retunefestival.de/]
+    - [
+        SciCAR,
+        https://netzwerkrecherche.org/termine/konferenzen/fachkonferenzen/scicar/,
+      ]
+    - [Transmediale, https://transmediale.de/]
+    - [UIST, http://uist.acm.org/]
