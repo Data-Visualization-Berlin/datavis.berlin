@@ -37,6 +37,9 @@
 
 .homepage-header nav {
   margin-bottom: $spacing / 2;
+  display: flex;
+  gap: 0 $spacing / 2 ;
+  flex-wrap: wrap;
 }
 
 .icon {

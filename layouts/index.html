@@ -6,7 +6,12 @@
       <nav>
         {{ $current := .Site.Language.Lang }}
         {{ range (where $.Site.Home.AllTranslations "Language.Lang" "!=" $current) }}
-        <a href="{{ .Permalink }}" rel="alternate" hreflang="{{ .Language.Lang }}">{{  .Language.LanguageName }}</a>
+        <a href="{{ .Permalink }}" rel="alternate" hreflang="{{ .Language.Lang }}">
+          {{ if eq .Language.Lang "ua" }}
+            💙💛
+          {{ end }}
+          {{  .Language.LanguageName }}
+        </a>
         {{ end }}
       </nav>
     </header>
