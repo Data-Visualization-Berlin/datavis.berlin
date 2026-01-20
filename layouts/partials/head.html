@@ -30,13 +30,6 @@
   <meta property="og:site_name" content="{{ .Site.Title }}">
   <meta property="og:locale" content="{{ .Site.LanguageCode }}">
 
-  <meta name="twitter:card" content="summary">
-  <meta name="twitter:creator" content="@{{ .Site.Params.twitter }}">
-  <meta name="twitter:url" content="{{ .Site.BaseURL }}">
-  <meta name="twitter:title" content="{{ .Site.Title }}">
-  <meta name="twitter:description" content="{{ .Site.Params.description }}">
-  <meta name="twitter:image" content="{{ "preview-tw.png" | absURL }}">
-
   <link rel="icon" sizes="196x196" href="favicon-196x196.png">
   <link rel="apple-touch-icon" href="favicon-196x196.png">
   <link rel="mask-icon" href="favicon.svg" color="#ff4626">
@@ -47,17 +40,4 @@
   {{ with .OutputFormats.Get "rss" -}}
     {{ printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}
   {{ end -}}
-
-  <script type="text/javascript">
-    var _paq = window._paq || [];
-    _paq.push(['trackPageView']);
-    _paq.push(['enableLinkTracking']);
-    (function() {
-      var u="//mmmd.uber.space/matomo/";
-      _paq.push(['setTrackerUrl', u+'matomo.php']);
-      _paq.push(['setSiteId', '1']);
-      var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
-      g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
-    })();
-  </script>
 </head>
