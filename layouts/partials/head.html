@@ -7,6 +7,11 @@
   <meta name="author" content="{{ .Site.Params.author }}">
   <meta name="robots" content="index,follow">
 
+  <meta http-equiv="X-Content-Type-Options" content="nosniff">
+  <meta name="referrer" content="strict-origin-when-cross-origin">
+
+  <link rel="canonical" href="{{ .Permalink }}">
+
   <link rel="license" href="//creativecommons.org/licenses/by-nc-nd/4.0">
 
   {{ range $.Site.Home.AllTranslations }}
@@ -28,7 +33,25 @@
   <meta property="og:image" content="{{ "preview-fb.png" | absURL }}">
   <meta property="og:description" content="{{ .Site.Params.description }}">
   <meta property="og:site_name" content="{{ .Site.Title }}">
+  {{ if eq .Site.Language.Lang "en" }}
+  <meta property="og:locale" content="en_US">
+  {{ else if eq .Site.Language.Lang "de" }}
+  <meta property="og:locale" content="de_DE">
+  {{ else if eq .Site.Language.Lang "it" }}
+  <meta property="og:locale" content="it_IT">
+  {{ else if eq .Site.Language.Lang "es" }}
+  <meta property="og:locale" content="es_ES">
+  {{ else if eq .Site.Language.Lang "fr" }}
+  <meta property="og:locale" content="fr_FR">
+  {{ else if eq .Site.Language.Lang "tr" }}
+  <meta property="og:locale" content="tr_TR">
+  {{ else if eq .Site.Language.Lang "ur" }}
+  <meta property="og:locale" content="ur_PK">
+  {{ else if eq .Site.Language.Lang "ua" }}
+  <meta property="og:locale" content="uk_UA">
+  {{ else }}
   <meta property="og:locale" content="{{ .Site.LanguageCode }}">
+  {{ end }}
 
   <link rel="icon" sizes="196x196" href="favicon-196x196.png">
   <link rel="apple-touch-icon" href="favicon-196x196.png">
@@ -40,4 +63,24 @@
   {{ with .OutputFormats.Get "rss" -}}
     {{ printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}
   {{ end -}}
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "{{ .Site.Title }}",
+    "url": "{{ .Site.BaseURL }}",
+    "description": "{{ .Site.Params.description }}",
+    "inLanguage": "{{ .Site.LanguageCode }}",
+    "author": {
+      "@type": "Person",
+      "name": "{{ .Site.Params.author }}"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "{{ .Site.Title }}",
+      "url": "{{ .Site.BaseURL }}"
+    }
+  }
+  </script>
 </head>
