@@ -5,7 +5,7 @@ aptPkgs = ["hugo"]
 cmds = ["hugo --gc --minify"]
 
 [environment]
-HUGO_VERSION = "0.145.0"
+HUGO_VERSION = "0.153.0"
 
 [[nixpacks.included_files]]
 paths = ["/public"]
