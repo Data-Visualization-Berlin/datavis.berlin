@@ -21,7 +21,7 @@ invisibleSections = ["jobs"]
     LanguageName = "English"
     languageCode = "en"
     weight = 1
-    disableKinds = ["taxonomy", "taxonomyTerm", "jobs", "section", "tags"]
+    disableKinds = ["taxonomy", "section"]
   [languages.de]
     title = "Daten Visualisierung Berlin"
     baseURL = "https://de.datavis.berlin"
@@ -30,7 +30,7 @@ invisibleSections = ["jobs"]
     LanguageName = "Deutsch"
     languageCode = "de"
     weight = 2
-    disableKinds = ["taxonomy", "taxonomyTerm", "jobs", "section", "tags"]
+    disableKinds = ["taxonomy", "section"]
   [languages.it]
     baseURL = "https://it.datavis.berlin"
     title = "Data Visualisation Berlin"
@@ -39,7 +39,7 @@ invisibleSections = ["jobs"]
     LanguageName = "Italiano"
     languageCode = "it"
     weight = 2
-    disableKinds = ["taxonomy", "taxonomyTerm", "jobs", "section", "tags"]
+    disableKinds = ["taxonomy", "section"]
   [languages.es]
     baseURL = "https://es.datavis.berlin"
     title = "Data Visualisation Berlin"
@@ -48,7 +48,7 @@ invisibleSections = ["jobs"]
     LanguageName = "Español"
     languageCode = "es"
     weight = 2
-    disableKinds = ["taxonomy", "taxonomyTerm", "jobs", "section", "tags"]
+    disableKinds = ["taxonomy", "section"]
   [languages.fr]
     baseURL = "https://fr.datavis.berlin"
     title = "Datavisualisation à Berlin"
@@ -57,7 +57,7 @@ invisibleSections = ["jobs"]
     LanguageName = "Français"
     languageCode = "fr"
     weight = 2
-    disableKinds = ["taxonomy", "taxonomyTerm", "jobs", "section", "tags"]
+    disableKinds = ["taxonomy", "section"]
   [languages.tr]
     baseURL = "https://tr.datavis.berlin"
     title = "Data Visualisation Berlin"
@@ -66,7 +66,7 @@ invisibleSections = ["jobs"]
     LanguageName = "Türkçe"
     languageCode = "tr"
     weight = 2
-    disableKinds = ["taxonomy", "taxonomyTerm", "jobs", "section", "tags"]
+    disableKinds = ["taxonomy", "section"]
   [languages.ur]
     baseURL = "https://ur.datavis.berlin"
     title = "Data Visualisation Berlin"
@@ -75,7 +75,7 @@ invisibleSections = ["jobs"]
     LanguageName = "اردو"
     languageCode = "ur"
     weight = 2
-    disableKinds = ["taxonomy", "taxonomyTerm", "jobs", "section", "tags"]
+    disableKinds = ["taxonomy", "section"]
     direction = "rtl"
   [languages.ua]
     baseURL = "https://ua.datavis.berlin"
@@ -85,5 +85,4 @@ invisibleSections = ["jobs"]
     LanguageName = "Українська"
     languageCode = "ua"
     weight = 2
-    disableKinds = ["taxonomy", "taxonomyTerm", "jobs", "section", "tags"]
-
+    disableKinds = ["taxonomy", "section"]
