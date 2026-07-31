@@ -11,7 +11,7 @@ other = "deadline il"
 other = "Al momento non ci sono offerte di lavoro."
 
 [contact]
-other = 'Stai assumendo? <a href="{{ .mail }}">Contattami</a> oppure fai una <a href="{{ .link }}">pull request</a>.'
+other = 'Stai assumendo? Fai una <a href="{{ .link }}">pull request</a>.'
 
 [rss]
 other = 'Per ricevere gli aggiornamenti, iscriviti all&#39; <a href="{{ . }}">RSS feed</a>.'

@@ -11,7 +11,7 @@ other = "Son başvuru tarihi"
 other = "Uygun ilan şu an bulunmamaktadır."
 
 [contact]
-other = 'Vermek istediğin bir iş/proje ilanı mı var? <a href="{{ .mail }}">Benimle irtibata geçebilir </a> ya da ilanı kendin verebilirsin <a href="{{ .link }}">Pull Request</a>.'
+other = 'Vermek istediğin bir iş/proje ilanı mı var? İlanı kendin verebilirsin <a href="{{ .link }}">Pull Request</a>.'
 
 [rss]
 other = 'Eğer güncellemelerden haberdar olmak istersen, <a href="{{ . }}">RSS Feed</a> abone olabilirsin.'

@@ -14,7 +14,7 @@ other = "en tout temps"
 other = "Il n’existe actuellement aucun poste vacant."
 
 [contact]
-other = 'Avez-vous une offre d’emploi? <a href="{{ .mail }}">Contactez-moi</a> ou faites une <a href="{{ .link }}">pull-request</a> vous-même.'
+other = 'Avez-vous une offre d’emploi? Faites une <a href="{{ .link }}">pull-request</a> vous-même.'
 
 [rss]
 other = 'Si vous souhaitez obtenir des informations régulières, inscrivez-vous au <a href="{{ . }}">RSS feed</a>.'
