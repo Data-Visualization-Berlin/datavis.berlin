@@ -25,8 +25,6 @@
 
   <meta name="telegram:channel" content="@{{ .Site.Params.telegram }}">
 
-  <link rel="me" href="mailto:jonas-at-datavis.berlin">
-
   <meta property="og:url" content="{{ .Site.BaseURL }}">
   <meta property="og:type" content="website">
   <meta property="og:title" content="{{ .Site.Title }}">
@@ -57,7 +55,12 @@
   <link rel="apple-touch-icon" href="favicon-196x196.png">
   <link rel="mask-icon" href="favicon.svg" color="#ff4626">
 
-  {{ $style := resources.Get "sass/main.scss" | toCSS | minify | fingerprint }}
+  {{ $variables := resources.Get "css/variables.css" }}
+  {{ $base := resources.Get "css/base.css" }}
+  {{ $layout := resources.Get "css/layout.css" }}
+  {{ $typography := resources.Get "css/typography.css" }}
+  {{ $icons := resources.Get "css/icons.css" }}
+  {{ $style := slice $variables $base $layout $typography $icons | resources.Concat "css/main.css" | minify | fingerprint }}
   <link rel="stylesheet" href="{{ $style.Permalink }}">
 
   {{ with .OutputFormats.Get "rss" -}}
