@@ -66,6 +66,12 @@
   {{ with .OutputFormats.Get "rss" -}}
     {{ printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}
   {{ end -}}
+  {{ with .OutputFormats.Get "eventsrss" -}}
+    {{ printf `<link rel="%s" type="%s" href="%s" title="%s Events" />` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}
+  {{ end -}}
+  {{ with .OutputFormats.Get "icalfeed" -}}
+    {{ printf `<link rel="%s" type="%s" href="%s" title="%s Events" />` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}
+  {{ end -}}
 
   <script type="application/ld+json">
   {

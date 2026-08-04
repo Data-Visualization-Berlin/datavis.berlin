@@ -1,0 +1,19 @@
+{{ define "main" }}
+
+  <main aria-role="main" class="container">
+    <header class="homepage-header">
+      <a href="{{ .Site.BaseURL }}" rel="self"><h1 class="logo"><i class="icon icon-logo" aria-hidden="true"></i>{{ .Site.Title }}</h1></a>
+    </header>
+    <article class="event-detail" itemscope itemtype="https://schema.org/Event">
+      <h2 itemprop="name">{{ .Title }}</h2>
+      <p>
+        <time itemprop="startDate" datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}">{{ i18n (.Date.Format "January") }} {{ .Date.Format "2, 2006 15:04" }}</time>
+        – <span itemprop="location">{{ .Params.location }}</span>
+      </p>
+      <p itemprop="description">{{ .Params.description }}</p>
+      {{ with .Params.link }}<p><a href="{{ . }}" rel="noopener noreferrer">{{ i18n "moreinfo" }}</a></p>{{ end }}
+      {{ with .OutputFormats.Get "ical" }}<p><a href="{{ .Permalink }}">{{ i18n "addtocalendar" }}</a></p>{{ end }}
+    </article>
+  </main>
+
+{{ end }}

@@ -81,7 +81,7 @@ h2, h3 {
   }
 }
 
-.job-title {
+.job-title, .event-title {
   font-weight: var(--font-weight-bold);
   display: block;
 }

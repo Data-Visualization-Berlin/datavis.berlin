@@ -1,0 +1,9 @@
+{{ $upcoming := where (where .context.Site.RegularPages "Section" "events") "Date" "ge" now }}
+{{ $upcoming = sort $upcoming "Date" "asc" }}
+{{ if $upcoming }}
+<ul aria-labelledby="{{ .id }}">
+  {{ range $upcoming }} {{ partial "event.html" . }} {{ end }}
+</ul>
+{{else}}
+<span class="mute">{{ i18n "noevents" }}</span>
+{{ end }}

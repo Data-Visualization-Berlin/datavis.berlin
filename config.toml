@@ -1,8 +1,32 @@
 title = "Data visualisation Berlin"
 invisibleSections = ["jobs"]
+buildFuture = true
 
 [markup.goldmark.renderer]
   unsafe = true
+
+[mediaTypes]
+  [mediaTypes."text/calendar"]
+    suffixes = ["ics"]
+
+[outputFormats]
+  [outputFormats.EventsRSS]
+    mediaType = "application/rss+xml"
+    baseName = "events"
+    isPlainText = false
+    rel = "alternate"
+  [outputFormats.ICal]
+    mediaType = "text/calendar"
+    isPlainText = true
+    rel = "alternate"
+  [outputFormats.ICalFeed]
+    mediaType = "text/calendar"
+    baseName = "events"
+    isPlainText = true
+    rel = "alternate"
+
+[outputs]
+  home = ["html", "rss", "eventsrss", "icalfeed"]
 
 [params]
   description = "An open list to the data visualisation scene in Berlin. All people, things and places that are related to visualisation, infographic, data art, data journalism, research, and data tools are welcome!"

@@ -1,0 +1,11 @@
+{{ $internal := eq .Params.organiser "Datavis Meetup Berlin" }}
+<li class="item-event" itemscope itemtype="https://schema.org/Event">
+  <a class="event-link" href="{{ if $internal }}{{ .Permalink }}{{ else }}{{ .Params.link }}{{ end }}" rel="noopener noreferrer" itemprop="url">
+    <meta itemprop="startDate" content="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}" />
+    <strong class="event-title" itemprop="name">{{ .Title }}</strong>
+    <span class="event-date">{{ i18n (.Date.Format "January") }} {{ .Date.Format "2, 2006" }}</span>
+    <span class="event-organiser" itemprop="organizer">{{ .Params.organiser }}</span>
+    {{ if not $internal }}<span class="mute event-external">{{ i18n "external" }}</span>{{ end }}
+  </a>
+  {{ with .OutputFormats.Get "ical" }}<a class="event-ical" href="{{ .Permalink }}">{{ i18n "addtocalendar" }}</a>{{ end }}
+</li>

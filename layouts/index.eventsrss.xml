@@ -1,0 +1,23 @@
+{{- $pages := where .Site.RegularPages "Section" "events" -}}
+{{- printf "<?xml version=\"1.0\" encoding=\"utf-8\" standalone=\"yes\"?>" | safeHTML }}
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>{{ .Site.Title }} Events</title>
+    <link>{{ .Permalink }}</link>
+    <description>Events on {{ .Site.Title }}</description>
+    {{ with .Site.LanguageCode }}<language>{{.}}</language>{{end}}
+    {{ if not .Date.IsZero }}<lastBuildDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</lastBuildDate>{{ end }}
+    {{ with .OutputFormats.Get "eventsrss" }}
+    {{ printf "<atom:link href=%q rel=\"self\" type=%q />" .Permalink .MediaType | safeHTML }}
+    {{ end }}
+    {{ range $pages }}
+    <item>
+      <title>{{ .Title }}</title>
+      <link>{{ if eq .Params.organiser "Datavis Meetup Berlin" }}{{ .Permalink }}{{ else }}{{ .Params.link }}{{ end }}</link>
+      <pubDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</pubDate>
+      <guid>{{ .File.BaseFileName }}</guid>
+      <description>{{ .Params.description }}</description>
+    </item>
+    {{ end }}
+  </channel>
+</rss>
