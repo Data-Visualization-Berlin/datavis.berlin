@@ -1,0 +1,15 @@
+{{ $internal := eq .Params.organiser "Datavis Meetup Berlin" }}
+{{ $event := dict
+  "@context" "https://schema.org"
+  "@type" "Event"
+  "name" .Title
+  "startDate" (.Date.Format "2006-01-02T15:04:05Z07:00")
+  "eventStatus" "https://schema.org/EventScheduled"
+  "location" (dict "@type" "Place" "name" .Params.location)
+  "description" .Params.description
+  "url" (cond $internal .Permalink .Params.link)
+  "organizer" (dict "@type" "Organization" "name" .Params.organiser)
+}}
+<script type="application/ld+json">
+{{ $event | jsonify | safeJS }}
+</script>
