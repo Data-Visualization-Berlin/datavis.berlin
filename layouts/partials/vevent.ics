@@ -1,0 +1,10 @@
+BEGIN:VEVENT
+UID:{{ .File.UniqueID }}@datavis.berlin
+DTSTAMP:{{ now.UTC.Format "20060102T150405Z" }}
+DTSTART:{{ .Date.UTC.Format "20060102T150405Z" }}
+SUMMARY:{{ partial "ical-escape.html" .Title }}
+LOCATION:{{ partial "ical-escape.html" .Params.location }}
+DESCRIPTION:{{ partial "ical-escape.html" .Params.description }}
+CATEGORIES:{{ partial "ical-escape.html" .Params.organiser }}
+URL:{{ .Params.link }}
+END:VEVENT

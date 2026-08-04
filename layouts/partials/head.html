@@ -12,7 +12,7 @@
 
   <link rel="canonical" href="{{ .Permalink }}">
 
-  <link rel="license" href="//creativecommons.org/licenses/by-nc-nd/4.0">
+  <link rel="license" href="https://creativecommons.org/publicdomain/zero/1.0/">
 
   {{ range $.Site.Home.AllTranslations }}
   <link rel="alternate" hreflang="{{ .Language.Lang }}" href="{{ .Permalink }}"/>
@@ -54,24 +54,39 @@
   {{ with .OutputFormats.Get "rss" -}}
     {{ printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}
   {{ end -}}
+  {{ with .OutputFormats.Get "eventsrss" -}}
+    {{ printf `<link rel="%s" type="%s" href="%s" title="%s Events" />` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}
+  {{ end -}}
+  {{ with .OutputFormats.Get "icalfeed" -}}
+    {{ printf `<link rel="%s" type="%s" href="%s" title="%s Events" />` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}
+  {{ end -}}
 
+  {{ $publisher := dict
+    "@type" "Organization"
+    "name" .Site.Title
+    "url" .Site.BaseURL
+    "logo" (dict "@type" "ImageObject" "url" ("favicon-196x196.png" | absURL))
+    "sameAs" (slice .Site.Params.source (printf "https://t.me/%s" .Site.Params.telegram))
+  }}
+  {{ $author := dict
+    "@type" "Person"
+    "name" .Site.Params.author
+    "url" .Site.Params.imprint
+  }}
+  {{ $website := dict
+    "@context" "https://schema.org"
+    "@type" "WebSite"
+    "name" .Site.Title
+    "url" .Site.BaseURL
+    "description" .Site.Params.description
+    "keywords" .Site.Params.keywords
+    "image" ("preview-fb.png" | absURL)
+    "inLanguage" .Site.LanguageCode
+    "license" "https://creativecommons.org/publicdomain/zero/1.0/"
+    "author" $author
+    "publisher" $publisher
+  }}
   <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "WebSite",
-    "name": "{{ .Site.Title }}",
-    "url": "{{ .Site.BaseURL }}",
-    "description": "{{ .Site.Params.description }}",
-    "inLanguage": "{{ .Site.LanguageCode }}",
-    "author": {
-      "@type": "Person",
-      "name": "{{ .Site.Params.author }}"
-    },
-    "publisher": {
-      "@type": "Organization",
-      "name": "{{ .Site.Title }}",
-      "url": "{{ .Site.BaseURL }}"
-    }
-  }
+  {{ $website | jsonify | safeJS }}
   </script>
 </head>

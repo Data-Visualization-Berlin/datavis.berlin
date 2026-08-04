@@ -80,6 +80,36 @@ link: "https://boards.greenhouse.io/wikimedia/jobs/2083317?gh_src=fd611a951"
 ---
 ```
 
+## Adding an event
+
+Every event is a file in the `/content/events/` folder. You can create a new event with Hugo with
+
+```bash
+hugo new events/unique-event-name.md
+```
+
+Without Hugo, just create a file with a **unique event name** (for example `2026-09-datavis-meetup.md`) in the `events` folder.
+
+Inside this file, fill out the following fields:
+
+```markdown
+---
+title: "Data Visualisation Meetup #12"
+organiser: "Datavis Meetup Berlin"
+date: 2026-09-10T19:00:00+02:00
+location: "Betahaus, Prinzessinnenstraße 19-20, 10969 Berlin"
+link: "https://www.meetup.com/datavis-berlin/events/example/"
+created_at: 2026-08-04
+updated_at: 2026-08-04
+description: "Short description of the event."
+outputs: ["html", "ical"]
+---
+```
+
+Events show up in a list of upcoming events on the homepage, in the events RSS feed (`/events.xml`) and in the events iCal calendar (`/events.ics`). Every event also gets its own downloadable `.ics` file.
+
+Only events organised by **"Datavis Meetup Berlin"** get their own detail page on the website. For all other (external) events, use `outputs: ["ical"]` (without `"html"`) and add `sitemap_exclude: true`, so no thin/duplicate page gets built or indexed for an event that already has its own page elsewhere.
+
 ## Adding a translation
 
 That would be super good :)

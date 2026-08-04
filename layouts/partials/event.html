@@ -1,0 +1,10 @@
+{{ $internal := eq .Params.organiser "Datavis Meetup Berlin" }}
+<li class="item-event">
+  <a class="event-link" href="{{ if $internal }}{{ .Permalink }}{{ else }}{{ .Params.link }}{{ end }}" rel="noopener noreferrer">
+    <strong class="event-title">{{ .Title }}</strong>
+    <span class="event-date">{{ i18n (.Date.Format "January") }} {{ .Date.Format "2, 2006" }}</span>
+    <span class="event-organiser">{{ .Params.organiser }}</span>
+    {{ if not $internal }}<span class="mute event-external">{{ i18n "external" }}</span>{{ end }}
+  </a>
+  {{ with .OutputFormats.Get "ical" }}<a class="event-ical" href="{{ .Permalink }}">{{ i18n "addtocalendar" }}</a>{{ end }}
+</li>

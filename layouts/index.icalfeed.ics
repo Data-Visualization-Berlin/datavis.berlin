@@ -1,0 +1,7 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Datavis Berlin//Events//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:{{ partial "ical-escape.html" .Site.Title }}
+{{ range where .Site.RegularPages "Section" "events" }}{{ partial "vevent.ics" . }}{{ end }}END:VCALENDAR

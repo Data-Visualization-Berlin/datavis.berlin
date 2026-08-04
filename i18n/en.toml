@@ -1,3 +1,21 @@
+[events]
+other = "Events"
+
+[noevents]
+other = "There are currently no upcoming events."
+
+[eventsnote]
+other = 'Subscribe to the <a href="{{ .rss }}">RSS feed</a> or the <a href="{{ .ical }}">iCal calendar</a> to stay updated about upcoming events.'
+
+[external]
+other = "External event"
+
+[moreinfo]
+other = "More information"
+
+[addtocalendar]
+other = "Add to calendar"
+
 [professional]
 other = "Professional data visualisation"
 
