@@ -32,7 +32,6 @@ buildFuture = true
   description = "An open list to the data visualisation scene in Berlin. All people, things and places that are related to visualisation, infographic, data art, data journalism, research, and data tools are welcome!"
   keywords = "data visualisation visualisation design infographic information graphic data-driven journalism ddj interface design"
   author = "Jonas Parnow"
-  twitter = "zeto"
   telegram = "visber"
   source = "https://github.com/Data-Visualization-Berlin/Datavis-Berlin-Website"
   imprint = "https://jonasparnow.com/imprint"
