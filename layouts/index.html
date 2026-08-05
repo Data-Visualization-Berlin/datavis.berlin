@@ -17,7 +17,7 @@
     </div>
     <div class="homepage-content">
       {{ partial "headline.html" (dict "id" "events" "label" (i18n "events")) }}
-      <section aria-labelledby="events" style="margin-top: 2em;">
+      <section aria-labelledby="events" style="margin-top: 1em;">
         {{ partial "events.html" (dict "context" . "id" "events") }}
         <small class="note">{{ i18n "eventsnote" (dict "rss" ("events.xml" | absURL) "ical" ("events.ics" | absURL)) | safeHTML }}</small>
       </section>
