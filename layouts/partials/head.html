@@ -49,7 +49,7 @@
   {{ $typography := resources.Get "css/typography.css" }}
   {{ $icons := resources.Get "css/icons.css" }}
   {{ $style := slice $variables $base $layout $typography $icons | resources.Concat "css/main.css" | minify | fingerprint }}
-  <link rel="stylesheet" href="{{ $style.Permalink }}">
+  <link rel="stylesheet" href="{{ $style.RelPermalink }}">
 
   {{ with .OutputFormats.Get "jobsrss" -}}
     {{ printf `<link rel="%s" type="%s" href="%s" title="%s Jobs" />` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}
