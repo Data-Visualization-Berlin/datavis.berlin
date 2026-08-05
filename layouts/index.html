@@ -17,7 +17,7 @@
     </div>
     <div class="homepage-content">
       {{ partial "headline.html" (dict "id" "events" "label" (i18n "events")) }}
-      <section aria-labelledby="events">
+      <section aria-labelledby="events" style="margin-top: 1em;">
         {{ partial "events.html" (dict "context" . "id" "events") }}
         <small class="note">{{ i18n "eventsnote" (dict "rss" ("events.xml" | absURL) "ical" ("events.ics" | absURL)) | safeHTML }}</small>
       </section>
@@ -25,7 +25,7 @@
       <section aria-labelledby="professional">
         {{ partial "subheadline.html" (dict "id" "jobs" "title" (i18n "joboffers")) }}
         {{ partial "jobs.html" (dict "context" . "id" "jobs") }}
-        <small class="note">{{ i18n "contact" (dict "link" "https://github.com/Data-Visualization-Berlin/Datavis-Berlin-Website") | safeHTML }} {{ (i18n "rss" ("index.xml" | absURL)) | safeHTML }}</small>
+        <small class="note">{{ i18n "contact" (dict "link" "https://github.com/Data-Visualization-Berlin/Datavis-Berlin-Website") | safeHTML }} {{ (i18n "rss" ("jobs.xml" | absURL)) | safeHTML }}</small>
       </section>
       {{ partial "list.html" (dict "items" $.Site.Data "id" "professional" "layout" "wrap") }}
       {{ partial "headline.html" (dict "id" "places" "label" (i18n "places")) }}

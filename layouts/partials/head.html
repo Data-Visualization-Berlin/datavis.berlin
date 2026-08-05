@@ -51,8 +51,8 @@
   {{ $style := slice $variables $base $layout $typography $icons | resources.Concat "css/main.css" | minify | fingerprint }}
   <link rel="stylesheet" href="{{ $style.Permalink }}">
 
-  {{ with .OutputFormats.Get "rss" -}}
-    {{ printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}
+  {{ with .OutputFormats.Get "jobsrss" -}}
+    {{ printf `<link rel="%s" type="%s" href="%s" title="%s Jobs" />` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}
   {{ end -}}
   {{ with .OutputFormats.Get "eventsrss" -}}
     {{ printf `<link rel="%s" type="%s" href="%s" title="%s Events" />` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}

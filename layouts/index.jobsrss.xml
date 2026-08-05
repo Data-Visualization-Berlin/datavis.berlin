@@ -1,0 +1,1 @@
+{{ partial "jobsrss.xml" (dict "context" . "format" "jobsrss") }}

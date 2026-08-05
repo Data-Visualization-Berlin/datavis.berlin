@@ -1,4 +1,4 @@
-# Data visualisation Berlin
+# Data Visualisation Berlin
 
 Here, you find the source code of the website of the Datavis Berlin hosted at [datavis.berlin](https://datavis.berlin). The website is build with build with [Hugo](https://gohugo.io/) and deployed on [Netlify](https://netlify.com/).
 

@@ -4,8 +4,10 @@ date: 2020-03-11T11:46:31+01:00
 draft: false
 ---
 
-Hallo liebe\*r Daten-Visualisierer\*in,
+Hey liebe:r Daten-Visualisierer:in!
 
-Falls du neu hier bist: Willkommen in Berlin! Für alle die neu oder schon länger in Datenvisualisierung involviert sind bietet diese Seite eine Orierentierung in der lokalen Szene. Es ist eine offene Liste, inspiriert vom **[Datenvisualisierungs-Meetup Berlin](https://www.meetup.com/de-DE/Data-Visualization-Berlin/)** und von [Jonas Parnow](https://jonasparnow.com) gepflegt. Du bist herzlich willkommen zu unserem ~zweimonatlichen Treffen zu kommen (nach Corona). In der Zwischenzeit findest du hier Links zu weiteren Anlaufstellen. Falls du Fragen hast, teilnehmen oder Dinge auf dieser [Seite](https://github.com/Data-Visualization-Berlin/Datavis-Berlin-Website) [beitragen](https://forms.gle/VUPMpCgor5LoazJS6) möchtest, kontaktiere mich gerne über dieses [Formular](https://forms.gle/VUPMpCgor5LoazJS6) oder auf [Bluesky](https://bsky.app/profile/jonasparnow.com).
+Falls du neu in der Stadt bist: Willkommen in Berlin! Diese Seite soll allen, ob neu oder schon länger in der Datenvisualisierung unterwegs, einen Überblick über die lokale Szene geben. Es ist eine offene Liste, die ursprünglich aus dem inzwischen inaktiven [Data Visualisation Meetup Berlin](https://luma.com/datavis-berlin) entstanden ist. Die Liste wird von [Jonas Parnow](https://jonasparnow.com) gepflegt.
 
-Für aktuelle Informationen kannst du uns via [#visber](https://twitter.com/hashtag/visber) auf Twitter, auf <a href="https://bsky.app/profile/datavis.berlin">Bluesky</a> oder <a rel="me" href="https://vis.social/@berlin">Mastodon</a> folgen oder unserem [Telegram Channel](https://t.me/visber) beitreten.
+Falls du weitere Fragen hast oder dich an dieser [Seite](https://github.com/Data-Visualization-Berlin/Datavis-Berlin-Website) beteiligen oder etwas beitragen möchtest, melde dich gerne über dieses [Formular](https://forms.gle/VUPMpCgor5LoazJS6), per [Mail](mailto:jonas@parnow.de) oder auf [Bluesky](https://bsky.app/profile/jonasparnow.com).
+
+Für aktuellere Informationen folge mir auf [Bluesky](https://bsky.app/profile/datavis.berlin), [Mastodon](https://vis.social/@berlin) oder tritt diesem [Telegram-Kanal](https://t.me/visber) bei.
