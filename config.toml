@@ -10,6 +10,11 @@ buildFuture = true
     suffixes = ["ics"]
 
 [outputFormats]
+  [outputFormats.JobsRSS]
+    mediaType = "application/rss+xml"
+    baseName = "jobs"
+    isPlainText = false
+    rel = "alternate"
   [outputFormats.EventsRSS]
     mediaType = "application/rss+xml"
     baseName = "events"
@@ -26,7 +31,7 @@ buildFuture = true
     rel = "alternate"
 
 [outputs]
-  home = ["html", "rss", "eventsrss", "icalfeed"]
+  home = ["html", "rss", "jobsrss", "eventsrss", "icalfeed"]
 
 [params]
   description = "An open list to the data visualisation scene in Berlin. All people, things and places that are related to visualisation, infographic, data art, data journalism, research, and data tools are welcome!"
