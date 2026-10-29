@@ -53,9 +53,10 @@ buildFuture = true
   [languages.de]
     title = "Daten Visualisierung Berlin"
     baseURL = "https://de.datavis.berlin"
-    description = "Eine offene List der Datenvisualisierungsszene in Berlin. Alle Menschen, Dinge und Orte, die mit Visualisierung, Infografik, Datenkunst, Datenjournalismus, Forschung und Datenanwendungen verwandt sind, sind willkommen!"
-    keywords = "Visualisierung Daten Infografik Design Informationsgrafik Datenjournalismus DDJ Statistik Interfacedesign"
     LanguageName = "Deutsch"
     languageCode = "de"
     weight = 2
     disableKinds = ["taxonomy", "section"]
+    [languages.de.params]
+      description = "Eine offene List der Datenvisualisierungsszene in Berlin. Alle Menschen, Dinge und Orte, die mit Visualisierung, Infografik, Datenkunst, Datenjournalismus, Forschung und Datenanwendungen verwandt sind, sind willkommen!"
+      keywords = "Visualisierung Daten Infografik Design Informationsgrafik Datenjournalismus DDJ Statistik Interfacedesign"
