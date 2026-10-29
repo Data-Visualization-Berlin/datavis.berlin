@@ -1,6 +1,6 @@
 # Data Visualisation Berlin
 
-Here, you find the source code of the website of the Datavis Berlin hosted at [datavis.berlin](https://datavis.berlin). The website is build with build with [Hugo](https://gohugo.io/) and deployed on [Netlify](https://netlify.com/).
+Here, you find the source code of the website of the Datavis Berlin hosted at [datavis.berlin](https://datavis.berlin). The website is built with [Hugo](https://gohugo.io/) and deployed with [Coolify](https://coolify.io/) on every push to `master`.
 
 The website is an open list about everything related to data visualisation in Berlin. Feel free to make a pull request if you want to add someone, a company, a place, a meetup, …. If you are not familiar with coding you can also contact me on [Bluesky](https://bsky.app/profile/jonasparnow.com). Of course, you can also contact me for any mistakes, suggestions, corrections, …
 
