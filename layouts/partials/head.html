@@ -1,8 +1,11 @@
+{{- $title := cond .IsHome .Site.Title (printf "%s – %s" .Title .Site.Title) -}}
+{{- $description := .Site.Params.description -}}
+{{- with .Params.description }}{{ $description = . | markdownify | plainify | replaceRE "\\s+" " " | strings.TrimSpace | truncate 160 }}{{ end -}}
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <title>{{ .Site.Title }}</title>
-  <meta name="description" content="{{ .Site.Params.description }}">
+  <title>{{ $title }}</title>
+  <meta name="description" content="{{ $description }}">
   <meta name="keywords" content="{{ .Site.Params.keywords }}">
   <meta name="author" content="{{ .Site.Params.author }}">
   <meta name="robots" content="index,follow">
@@ -14,7 +17,7 @@
 
   <link rel="license" href="https://creativecommons.org/publicdomain/zero/1.0/">
 
-  {{ range $.Site.Home.AllTranslations }}
+  {{ range .AllTranslations }}
   <link rel="alternate" hreflang="{{ .Language.Lang }}" href="{{ .Permalink }}"/>
   {{ end }}
 
@@ -25,11 +28,11 @@
 
   <meta name="telegram:channel" content="@{{ .Site.Params.telegram }}">
 
-  <meta property="og:url" content="{{ .Site.BaseURL }}">
+  <meta property="og:url" content="{{ .Permalink }}">
   <meta property="og:type" content="website">
-  <meta property="og:title" content="{{ .Site.Title }}">
+  <meta property="og:title" content="{{ $title }}">
   <meta property="og:image" content="{{ "preview-fb.png" | absURL }}">
-  <meta property="og:description" content="{{ .Site.Params.description }}">
+  <meta property="og:description" content="{{ $description }}">
   <meta property="og:site_name" content="{{ .Site.Title }}">
   {{ if eq .Site.Language.Lang "en" }}
   <meta property="og:locale" content="en_US">
