@@ -39,9 +39,9 @@
   <meta property="og:locale" content="{{ .Site.LanguageCode }}">
   {{ end }}
 
-  <link rel="icon" sizes="196x196" href="favicon-196x196.png">
-  <link rel="apple-touch-icon" href="favicon-196x196.png">
-  <link rel="mask-icon" href="favicon.svg" color="#ff4626">
+  <link rel="icon" sizes="196x196" href="{{ "favicon-196x196.png" | absURL }}">
+  <link rel="apple-touch-icon" href="{{ "favicon-196x196.png" | absURL }}">
+  <link rel="mask-icon" href="{{ "favicon.svg" | absURL }}" color="#ff4626">
 
   {{ $variables := resources.Get "css/variables.css" }}
   {{ $base := resources.Get "css/base.css" }}
