@@ -10,7 +10,7 @@
         <time datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}">{{ i18n (.Date.Format "January") }} {{ .Date.Format "2, 2006 15:04" }}</time>
         – <span>{{ .Params.location }}</span>
       </p>
-      <p>{{ .Params.description }}</p>
+      <div class="event-description">{{ .Params.description | markdownify }}</div>
       {{ with .Params.link }}<p><a href="{{ . }}" rel="noopener noreferrer">{{ i18n "moreinfo" }}</a></p>{{ end }}
       {{ with .OutputFormats.Get "ical" }}<p><a href="{{ .Permalink }}">{{ i18n "addtocalendar" }}</a></p>{{ end }}
     </article>

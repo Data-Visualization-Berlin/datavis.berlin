@@ -6,7 +6,7 @@
   "startDate" (.Date.Format "2006-01-02T15:04:05Z07:00")
   "eventStatus" "https://schema.org/EventScheduled"
   "location" (dict "@type" "Place" "name" .Params.location)
-  "description" .Params.description
+  "description" (.Params.description | markdownify | plainify)
   "url" (cond $internal .Permalink .Params.link)
   "organizer" (dict "@type" "Organization" "name" .Params.organiser)
 }}

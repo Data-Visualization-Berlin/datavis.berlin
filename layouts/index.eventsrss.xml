@@ -17,7 +17,7 @@
       <link>{{ if eq .Params.organiser "Datavis Meetup Berlin" }}{{ .Permalink }}{{ else }}{{ .Params.link }}{{ end }}</link>
       <pubDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</pubDate>
       <guid isPermaLink="false">{{ .File.BaseFileName }}</guid>
-      <description>{{ .Params.description }}</description>
+      <description>{{ .Params.description | markdownify | transform.XMLEscape | safeHTML }}</description>
     </item>
     {{ end }}
   </channel>
