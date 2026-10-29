@@ -51,12 +51,12 @@ buildFuture = true
     weight = 1
     disableKinds = ["taxonomy", "section"]
   [languages.de]
-    title = "Daten Visualisierung Berlin"
+    title = "Datenvisualisierung Berlin"
     baseURL = "https://de.datavis.berlin"
     LanguageName = "Deutsch"
     languageCode = "de"
     weight = 2
     disableKinds = ["taxonomy", "section"]
     [languages.de.params]
-      description = "Eine offene List der Datenvisualisierungsszene in Berlin. Alle Menschen, Dinge und Orte, die mit Visualisierung, Infografik, Datenkunst, Datenjournalismus, Forschung und Datenanwendungen verwandt sind, sind willkommen!"
+      description = "Eine offene Liste der Datenvisualisierungsszene in Berlin. Alle Menschen, Dinge und Orte, die mit Visualisierung, Infografik, Datenkunst, Datenjournalismus, Forschung und Datenanwendungen verwandt sind, sind willkommen!"
       keywords = "Visualisierung Daten Infografik Design Informationsgrafik Datenjournalismus DDJ Statistik Interfacedesign"

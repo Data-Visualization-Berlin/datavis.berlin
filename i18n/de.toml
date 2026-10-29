@@ -17,7 +17,7 @@ other = "Mehr Informationen"
 other = "Zum Kalender hinzufügen"
 
 [professional]
-other = "Professionalle Datenvisualisierung"
+other = "Professionelle Datenvisualisierung"
 
 [joboffers]
 other = "Jobangebote"
@@ -26,7 +26,7 @@ other = "Jobangebote"
 other = "Bewerbungsfrist am"
 
 [nojobs]
-other = "Momemtan keine Jobangebote vorhanden"
+other = "Momentan keine Jobangebote vorhanden"
 
 [contact]
 other = 'Hast du ein Jobangebot? Füll dieses <a href="https://forms.gle/yS1n7C7o7GKXF7aDA">Formular</a> aus.'
@@ -38,10 +38,10 @@ other = 'Wenn du Updates bekommen möchtest, kannst du den <a href="{{ . }}">RSS
 other = "Informationsdesign"
 
 [visualisation]
-other = "Daten Visualisierung"
+other = "Datenvisualisierung"
 
 [art]
-other = "Daten Kunst"
+other = "Datenkunst"
 
 [newsrooms]
 other = "Datenjournalismus"
@@ -71,7 +71,7 @@ other = "Konferenzen"
 other = "Treffe andere Visualisierungsmenschen"
 
 [people]
-other = "Datavis Menschen momentan in Berlin"
+other = "Datavis-Menschen momentan in Berlin"
 
 [meetups]
 other = "Meetups"
