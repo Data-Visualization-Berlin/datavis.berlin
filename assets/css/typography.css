@@ -151,7 +151,7 @@ ul {
 
     a {
       color: var(--color-default);
-      text-decoration-color: var(--color-white);
+      text-decoration-color: var(--color-accent-translucent);
       transition: text-decoration-color var(--transition);
 
       &:hover, &:focus {
@@ -163,7 +163,7 @@ ul {
 }
 
 .mute {
-  color: rgb(200, 200, 200);
+  color: var(--color-mute);
 }
 
 small, .page-footer span, .homepage-header nav * {
