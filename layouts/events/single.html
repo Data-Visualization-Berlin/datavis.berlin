@@ -1,6 +1,6 @@
 {{ define "main" }}
 
-  <main aria-role="main" class="container">
+  <div class="container">
     <header class="homepage-header">
       <a href="{{ .Site.BaseURL }}" rel="self"><h1 class="logo"><i class="icon icon-logo" aria-hidden="true"></i>{{ .Site.Title }}</h1></a>
     </header>
@@ -14,7 +14,7 @@
       {{ with .Params.link }}<p><a href="{{ . }}" rel="noopener noreferrer">{{ i18n "moreinfo" }}</a></p>{{ end }}
       {{ with .OutputFormats.Get "ical" }}<p><a href="{{ .Permalink }}">{{ i18n "addtocalendar" }}</a></p>{{ end }}
     </article>
-  </main>
+  </div>
 
   {{ partial "event-jsonld.html" . }}
 

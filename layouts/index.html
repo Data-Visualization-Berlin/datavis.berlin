@@ -1,6 +1,6 @@
 {{ define "main" }}
 
-  <main aria-role="main" class="container">
+  <div class="container">
     <header class="homepage-header">
       <a href="{{ .Site.BaseURL }}" rel="self"><h1 class="logo"><i class="icon icon-logo" aria-hidden="true"></i>{{ .Title }}</h1></a>
       <nav>
@@ -37,6 +37,6 @@
       <small class="note">{{ i18n "article" (dict "title" "Data Visualisation Programmes and Qualifications" "link" "https://www.visualisingdata.com/2018/06/data-visualisation-programmes-qualifications/") | safeHTML }}</small>
       <small class="note">And also a <a href="https://vis-phd-positions.netlify.app/">list of Ph.D. position in visualisation</a>.</small>
     </div>
-  </main>
+  </div>
 
 {{ end }}
