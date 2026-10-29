@@ -2,7 +2,7 @@
 other = "Events"
 
 [noevents]
-other = "Momentan keine bevorstehenden Events vorhanden"
+other = "Momentan gibt es keine bevorstehenden Events."
 
 [eventsnote]
 other = 'Abonniere den <a href="{{ .rss }}">RSS-Feed</a> oder den <a href="{{ .ical }}">iCal-Kalender</a>, um über kommende Events informiert zu bleiben.'
@@ -26,7 +26,7 @@ other = "Jobangebote"
 other = "Bewerbungsfrist am"
 
 [nojobs]
-other = "Momentan keine Jobangebote vorhanden"
+other = "Momentan gibt es keine Jobangebote."
 
 [contact]
 other = 'Hast du ein Jobangebot? Füll dieses <a href="https://forms.gle/yS1n7C7o7GKXF7aDA">Formular</a> aus.'
@@ -50,10 +50,10 @@ other = "Datenjournalismus"
 other = "Forschung"
 
 [tools]
-other = "Programmentwicklung"
+other = "Tools"
 
 [freelancer]
-other = "Freiberufler"
+other = "Freiberufler:innen"
 
 [places]
 other = "Orte"
@@ -92,7 +92,7 @@ other = "Master"
 other = "Labore und Forschungscluster"
 
 [article]
-other = 'Finde mehr Studiengänge in Andy Kirks <a href="{{ .link }}">{{ .title }}</a> Artikel.'
+other = 'Weitere Studiengänge findest du in Andy Kirks Artikel <a href="{{ .link }}">{{ .title }}</a>.'
 
 [phdpositions]
 other = 'Außerdem gibt es eine <a href="{{ .link }}">Liste mit Promotionsstellen in der Visualisierung</a>.'
