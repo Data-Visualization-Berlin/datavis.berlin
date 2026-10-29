@@ -1,6 +1,6 @@
 {{- $ctx := .context -}}
 {{- $format := .format -}}
-{{- $pages := where $ctx.Site.RegularPages "Section" "jobs" -}}
+{{- $pages := where (index $ctx.Sites 0).RegularPages "Section" "jobs" -}}
 {{- $lastBuildDate := now -}}
 {{- if gt (len $pages) 0 -}}{{- $lastBuildDate = (index $pages 0).Date -}}{{- end -}}
 {{- printf "<?xml version=\"1.0\" encoding=\"utf-8\" standalone=\"yes\"?>" | safeHTML }}

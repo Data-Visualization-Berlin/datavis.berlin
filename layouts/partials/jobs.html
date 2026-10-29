@@ -1,4 +1,4 @@
-{{ $jobs := where .context.Site.RegularPages "Section" "jobs" }} {{ if $jobs }}
+{{ $jobs := where (index .context.Sites 0).RegularPages "Section" "jobs" }} {{ if $jobs }}
 <ul aria-labelledby="{{ .id }}">
   {{ range $jobs }} {{ partial "job.html" . }} {{ end }}
 </ul>
