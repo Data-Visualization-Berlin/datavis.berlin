@@ -1,12 +1,12 @@
 - universities:
     - - [
           Alexander von Humboldt Institut für Internet und Gesellschaft,
-          http://www.hiig.de/,
+          https://www.hiig.de/,
         ]
-      - [Digitaler Salon, http://www.hiig.de/digitaler-salon/]
+      - [Digitaler Salon, https://www.hiig.de/digitaler-salon/]
     - [
         Exzellenzcluster »Bild Wissen Gestaltung. Ein interdisziplinäres Labor«,
-        http://www.kunstgeschichte.hu-berlin.de/2012/07/exzellenzcluster-bild-wissen-gestaltung/,
+        https://www.kunstgeschichte.hu-berlin.de/2012/07/exzellenzcluster-bild-wissen-gestaltung/,
       ]
     - - [
           FH Potsdam,
@@ -24,15 +24,15 @@
     - [Weizenbaum Institut, https://www.weizenbaum-institut.de/]
 - museums:
     - [Art Laboratory Berlin, https://artlaboratory-berlin.org/]
-    - [Buchstaben Museum, http://www.buchstabenmuseum.de/]
+    - [Buchstaben Museum, https://www.buchstabenmuseum.de/]
     - [DAM gallery, https://www.dam-gallery.de/]
     - [Leap, https://www.leap.de/]
-    - [Museum für Kommunikation, http://www.mfk-berlin.de/]
+    - [Museum für Kommunikation, https://www.mfk-berlin.de/]
 - conferences:
     - [Data Natives, https://datanatives.io]
-    - [IEEE Vis, http://ieeevis.org]
+    - [IEEE Vis, https://ieeevis.org]
     - [Information Design Conference, https://www.informationdesigncon.eu/]
-    - [Information+, http://informationplusconference.com/]
+    - [Information+, https://informationplusconference.com/]
     - [Kick Festival, https://kikkfestival.be/]
     - [Retune, https://retunefestival.de/]
     - [
@@ -40,5 +40,5 @@
         https://netzwerkrecherche.org/termine/konferenzen/fachkonferenzen/scicar/,
       ]
     - [Transmediale, https://transmediale.de/]
-    - [UIST, http://uist.acm.org/]
+    - [UIST, https://uist.acm.org/]
     - [Visualising Climate, https://visualisingclimate.com/]
