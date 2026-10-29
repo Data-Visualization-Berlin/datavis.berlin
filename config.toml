@@ -42,7 +42,7 @@ buildFuture = true
   home = ["html", "rss", "jobsrss", "eventsrss", "icalfeed"]
 
 [params]
-  description = "An open list to the data visualisation scene in Berlin. All people, things and places that are related to visualisation, infographic, data art, data journalism, research, and data tools are welcome!"
+  description = "An open list of the data visualisation scene in Berlin. All people, things and places that are related to visualisation, infographics, data art, data journalism, research, and data tools are welcome!"
   keywords = "data visualisation visualisation design infographic information graphic data-driven journalism ddj interface design"
   author = "Jonas Parnow"
   telegram = "visber"
@@ -65,5 +65,5 @@ buildFuture = true
     weight = 2
     disableKinds = ["taxonomy", "section"]
     [languages.de.params]
-      description = "Eine offene Liste der Datenvisualisierungsszene in Berlin. Alle Menschen, Dinge und Orte, die mit Visualisierung, Infografik, Datenkunst, Datenjournalismus, Forschung und Datenanwendungen verwandt sind, sind willkommen!"
+      description = "Eine offene Liste der Datenvisualisierungsszene in Berlin. Alle Menschen, Dinge und Orte, die mit Visualisierung, Infografik, Datenkunst, Datenjournalismus, Forschung und Datenanwendungen zu tun haben, sind willkommen!"
       keywords = "Visualisierung Daten Infografik Design Informationsgrafik Datenjournalismus DDJ Statistik Interfacedesign"

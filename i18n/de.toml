@@ -5,7 +5,7 @@ other = "Events"
 other = "Momentan keine bevorstehenden Events vorhanden"
 
 [eventsnote]
-other = 'Abonniere den <a href="{{ .rss }}">RSS Feed</a> oder den <a href="{{ .ical }}">iCal Kalender</a>, um über kommende Events informiert zu bleiben.'
+other = 'Abonniere den <a href="{{ .rss }}">RSS-Feed</a> oder den <a href="{{ .ical }}">iCal-Kalender</a>, um über kommende Events informiert zu bleiben.'
 
 [external]
 other = "Externes Event"
@@ -32,7 +32,7 @@ other = "Momentan keine Jobangebote vorhanden"
 other = 'Hast du ein Jobangebot? Füll dieses <a href="https://forms.gle/yS1n7C7o7GKXF7aDA">Formular</a> aus.'
 
 [rss]
-other = 'Wenn du Updates bekommen möchtest, kannst du den <a href="{{ . }}">RSS Feed</a> abonnieren. Finde mehr Jobangebote <a href="https://jobs.datavisualizationsociety.org/">hier</a>.'
+other = 'Wenn du Updates bekommen möchtest, kannst du den <a href="{{ . }}">RSS-Feed</a> abonnieren. Finde mehr Jobangebote <a href="https://jobs.datavisualizationsociety.org/">hier</a>.'
 
 [information]
 other = "Informationsdesign"
@@ -68,7 +68,7 @@ other = "Museen / Galerien"
 other = "Konferenzen"
 
 [meet]
-other = "Treffe andere Visualisierungsmenschen"
+other = "Triff andere Visualisierungsmenschen"
 
 [people]
 other = "Datavis-Menschen momentan in Berlin"
@@ -110,7 +110,7 @@ other = "für die Übersetzung dieser Webseite."
 other = "Zuletzt aktualisiert im"
 
 [github]
-other = "Quellcode auf Github"
+other = "Quellcode auf GitHub"
 
 [imprint]
 other = "Impressum"

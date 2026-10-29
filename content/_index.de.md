@@ -4,7 +4,7 @@ date: 2020-03-11T11:46:31+01:00
 draft: false
 ---
 
-Hey liebe:r Daten-Visualisierer:in!
+Hey, liebe:r Datenvisualisierer:in!
 
 Falls du neu in der Stadt bist: Willkommen in Berlin! Diese Seite soll allen, ob neu oder schon länger in der Datenvisualisierung unterwegs, einen Überblick über die lokale Szene geben. Es ist eine offene Liste, die ursprünglich aus dem inzwischen inaktiven [Data Visualisation Meetup Berlin](https://luma.com/datavis-berlin) entstanden ist. Die Liste wird von [Jonas Parnow](https://jonasparnow.com) gepflegt.
 

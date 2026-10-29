@@ -41,7 +41,7 @@ other = "Information design"
 other = "Data visualisation"
 
 [art]
-other = "Data Art"
+other = "Data art"
 
 [newsrooms]
 other = "Newsrooms"
@@ -110,7 +110,7 @@ other = "for the translation of this website."
 other = "Last updated"
 
 [github]
-other = "Source on Github"
+other = "Source on GitHub"
 
 [imprint]
 other = "Imprint"
