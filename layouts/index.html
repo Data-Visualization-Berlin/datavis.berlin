@@ -2,7 +2,7 @@
 
   <div class="container">
     <header class="homepage-header">
-      <a href="{{ .Site.BaseURL }}" rel="self"><h1 class="logo"><i class="icon icon-logo" aria-hidden="true"></i>{{ .Title }}</h1></a>
+      <h1 class="logo"><a href="{{ .Site.BaseURL }}" rel="self"><i class="icon icon-logo" aria-hidden="true"></i>{{ .Title }}</a></h1>
       <nav>
         {{ $current := .Site.Language.Lang }}
         {{ range (where $.Site.Home.AllTranslations "Language.Lang" "!=" $current) }}

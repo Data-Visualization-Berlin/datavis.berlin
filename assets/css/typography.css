@@ -58,6 +58,10 @@ h2 {
   i {
     left: -1.9rem;
   }
+
+  &:has(> .headline):hover, &:has(> .headline:focus) {
+    border-bottom-color: var(--color-accent);
+  }
 }
 
 h3 {
@@ -73,8 +77,12 @@ h3 {
   }
 }
 
+.headline, .subheadline {
+  display: block;
+}
+
 h2, h3 {
-  &:hover, &:focus {
+  &:hover, &:focus-within {
     i {
       color: var(--color-mute);
     }
@@ -100,10 +108,6 @@ a {
     &:not(.headline) {
       text-decoration: underline;
       text-decoration-color: var(--color-accent);
-    }
-
-    &.headline > * {
-      border-bottom-color: var(--color-accent);
     }
   }
 }
