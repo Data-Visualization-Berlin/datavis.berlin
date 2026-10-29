@@ -10,4 +10,4 @@ Falls du neu in der Stadt bist: Willkommen in Berlin! Diese Seite soll allen, ob
 
 Falls du weitere Fragen hast oder dich an dieser [Seite](https://github.com/Data-Visualization-Berlin/Datavis-Berlin-Website) beteiligen oder etwas beitragen möchtest, melde dich gerne über dieses [Formular](https://forms.gle/VUPMpCgor5LoazJS6), per [Mail](mailto:jonas@parnow.de) oder auf [Bluesky](https://bsky.app/profile/jonasparnow.com).
 
-Für aktuellere Informationen folge mir auf [Bluesky](https://bsky.app/profile/datavis.berlin), [Mastodon](https://vis.social/@berlin) oder tritt diesem [Telegram-Kanal](https://t.me/visber) bei.
+Für aktuellere Informationen folge mir auf [Bluesky](https://bsky.app/profile/datavis.berlin), [Mastodon](https://vis.social/@berlin) oder tritt diesem [Telegram-Kanal](https://t.me/{{% param telegram %}}) bei.
