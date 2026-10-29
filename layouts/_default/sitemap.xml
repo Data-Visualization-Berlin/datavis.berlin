@@ -5,7 +5,7 @@
   {{ if or (and (ne .Section "jobs") (ne .Section "events")) (and (eq .Section "events") (eq .Params.organiser "Datavis Meetup Berlin")) }}
   <url>
     <loc>{{ .Permalink }}</loc>
-    <lastmod>{{ safeHTML ( now.Format "2006-01-02T15:04:05-07:00" ) }}</lastmod>{{ with .Sitemap.ChangeFreq }}
+    <lastmod>{{ (cond .IsHome now .Lastmod).Format "2006-01-02T15:04:05-07:00" | safeHTML }}</lastmod>{{ with .Sitemap.ChangeFreq }}
     <changefreq>{{ . }}</changefreq>{{ end }}{{ if ge .Sitemap.Priority 0.0 }}
     <priority>{{ .Sitemap.Priority }}</priority>{{ end }}{{ if .IsTranslated }}{{ range .Translations }}
     <xhtml:link
