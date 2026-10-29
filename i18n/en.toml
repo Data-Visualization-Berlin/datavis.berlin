@@ -94,6 +94,9 @@ other = "Labs and research clusters"
 [article]
 other = 'Find more programmes in Andy Kirk’s <a href="{{ .link }}">{{ .title }}</a> article.'
 
+[phdpositions]
+other = 'There is also a <a href="{{ .link }}">list of PhD positions in visualisation</a>.'
+
 [translation1]
 other = "Many thanks to"
 
